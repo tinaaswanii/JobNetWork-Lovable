@@ -1,1 +1,164 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHR5cGUgeyBBcnRoYUZpbHRlcnMgfSBmcm9tICJAL2xpYi9qb2JzL3R5cGVzIjsKaW1wb3J0IHsgZ2V0Sm9iRmlsdGVycyB9IGZyb20gIkAvbGliL2pvYnMvam9icy5mdW5jdGlvbnMiOwoKZXhwb3J0IGludGVyZmFjZSBGaWx0ZXJzIHsKICBxOiBzdHJpbmc7CiAgbG9jYXRpb246IHN0cmluZzsKICBqb2JfdHlwZTogc3RyaW5nOwogIHdvcmtfbW9kZTogc3RyaW5nOwogIGV4cF9sZXZlbDogc3RyaW5nOwogIHNvcnRfYnk6IHN0cmluZzsKfQoKZXhwb3J0IGNvbnN0IGVtcHR5RmlsdGVyczogRmlsdGVycyA9IHsKICBxOiAiIiwKICBsb2NhdGlvbjogIiIsCiAgam9iX3R5cGU6ICIiLAogIHdvcmtfbW9kZTogIiIsCiAgZXhwX2xldmVsOiAiIiwKICBzb3J0X2J5OiAibmV3ZXN0IiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEZpbHRlckJhcih7CiAgdmFsdWUsCiAgb25DaGFuZ2UsCn06IHsKICB2YWx1ZTogRmlsdGVyczsKICBvbkNoYW5nZTogKGY6IEZpbHRlcnMpID0+IHZvaWQ7Cn0pIHsKICBjb25zdCBbb3B0aW9ucywgc2V0T3B0aW9uc10gPSB1c2VTdGF0ZTxBcnRoYUZpbHRlcnMgfCBudWxsPihudWxsKTsKCiAgLy8gTG9jYWwsIHVuY29tbWl0dGVkIHRleHQgc28gZXZlcnkga2V5c3Ryb2tlIGRvZXNuJ3QgdHJpZ2dlciBhIGZldGNoLgogIC8vIE9ubHkgcHVzaGVkIHVwIHRvIG9uQ2hhbmdlIGFmdGVyIHRoZSB1c2VyIHBhdXNlcyB0eXBpbmcgZm9yIGEgYml0LgogIGNvbnN0IFtxRHJhZnQsIHNldFFEcmFmdF0gPSB1c2VTdGF0ZSh2YWx1ZS5xKTsKCiAgLy8gS2VlcCB0aGUgZHJhZnQgaW4gc3luYyBpZiB0aGUgcGFyZW50IHJlc2V0cyBmaWx0ZXJzLgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBzZXRRRHJhZnQodmFsdWUucSk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW3ZhbHVlLnFdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChxRHJhZnQgPT09IHZhbHVlLnEpIHJldHVybjsKICAgIGNvbnN0IHRpbWVvdXQgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgc2V0KHsgcTogcURyYWZ0IH0pOwogICAgfSwgNDAwKTsKICAgIHJldHVybiAoKSA9PiBjbGVhclRpbWVvdXQodGltZW91dCk7CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgfSwgW3FEcmFmdF0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgZ2V0Sm9iRmlsdGVycygpCiAgICAgIC50aGVuKHNldE9wdGlvbnMpCiAgICAgIC5jYXRjaCgoKSA9PiB7CiAgICAgICAgLyogZmlsdGVyIGRyb3Bkb3ducyBhcmUgYSBuaWNlLXRvLWhhdmU7IGZhaWwgcXVpZXRseSBhbmQga2VlcCBmcmVlLXRleHQgc2VhcmNoICovCiAgICAgIH0pOwogIH0sIFtdKTsKCiAgY29uc3Qgc2V0ID0gKHBhdGNoOiBQYXJ0aWFsPEZpbHRlcnM+KSA9PiBvbkNoYW5nZSh7IC4uLnZhbHVlLCAuLi5wYXRjaCB9KTsKCiAgY29uc3QgYWN0aXZlRmlsdGVyQ291bnQgPSBbCiAgICB2YWx1ZS5qb2JfdHlwZSwKICAgIHZhbHVlLndvcmtfbW9kZSwKICAgIHZhbHVlLmV4cF9sZXZlbCwKICAgIHZhbHVlLnNvcnRfYnkgIT09ICJuZXdlc3QiID8gdmFsdWUuc29ydF9ieSA6ICIiLAogIF0uZmlsdGVyKEJvb2xlYW4pLmxlbmd0aDsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIGdhcC0zIj4KICAgICAgey8qIEhlcm8gc2VhcmNoIOKAlCB0aGUgcHJpbWFyeSB3YXkgaW50byB0aGUgc2l0ZS4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwaW5uZWQtY2FyZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyBweC01IHB5LTQgbWQ6cHgtNiBtZDpweS01Ij4KICAgICAgICA8c3ZnCiAgICAgICAgICBjbGFzc05hbWU9ImgtNiB3LTYgc2hyaW5rLTAgdGV4dC1mb3JlZ3JvdW5kLzQwIgogICAgICAgICAgdmlld0JveD0iMCAwIDI0IDI0IgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iY3VycmVudENvbG9yIgogICAgICAgICAgc3Ryb2tlV2lkdGg9IjIiCiAgICAgICAgICBhcmlhLWhpZGRlbj0idHJ1ZSIKICAgICAgICA+CiAgICAgICAgICA8Y2lyY2xlIGN4PSIxMSIgY3k9IjExIiByPSI3IiAvPgogICAgICAgICAgPHBhdGggZD0ibTIwIDIwLTMuNS0zLjUiIHN0cm9rZUxpbmVjYXA9InJvdW5kIiAvPgogICAgICAgIDwvc3ZnPgogICAgICAgIDxpbnB1dAogICAgICAgICAgdHlwZT0idGV4dCIKICAgICAgICAgIHBsYWNlaG9sZGVyPSJTZWFyY2ggam9iIHRpdGxlcywgY29tcGFuaWVzLCBvciBza2lsbHMuLi4iCiAgICAgICAgICB2YWx1ZT17cURyYWZ0fQogICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRRRHJhZnQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctdHJhbnNwYXJlbnQgdGV4dC14bCBvdXRsaW5lLW5vbmUgcGxhY2Vob2xkZXI6dGV4dC1mb3JlZ3JvdW5kLzM1IG1kOnRleHQtMnhsIgogICAgICAgIC8+CiAgICAgICAge3FEcmFmdCAmJiAoCiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9ImJ1dHRvbiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0UURyYWZ0KCIiKX0KICAgICAgICAgICAgYXJpYS1sYWJlbD0iQ2xlYXIgc2VhcmNoIgogICAgICAgICAgICBjbGFzc05hbWU9InNocmluay0wIHB4LTEgdGV4dC14bCBsZWFkaW5nLW5vbmUgdGV4dC1mb3JlZ3JvdW5kLzQwIGhvdmVyOnRleHQtZm9yZWdyb3VuZCIKICAgICAgICAgID4KICAgICAgICAgICAgw5cKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvZGl2PgoKICAgICAgey8qIFNlY29uZGFyeSBmaWx0ZXJzIOKAlCBzbWFsbGVyLCBxdWlldGVyLCBiZWxvdyB0aGUgaGVybyBzZWFyY2ggKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgcHgtMSI+CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtci0xIHRleHQteHMgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGUgdGV4dC1mb3JlZ3JvdW5kLzQwIj4KICAgICAgICAgIFJlZmluZXthY3RpdmVGaWx0ZXJDb3VudCA+IDAgPyBgICgke2FjdGl2ZUZpbHRlckNvdW50fSlgIDogIiJ9OgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8RmlsdGVyU2VsZWN0CiAgICAgICAgICBsYWJlbD0iVHlwZSIKICAgICAgICAgIHZhbHVlPXt2YWx1ZS5qb2JfdHlwZX0KICAgICAgICAgIG9uQ2hhbmdlPXsodikgPT4gc2V0KHsgam9iX3R5cGU6IHYgfSl9CiAgICAgICAgICBvcHRpb25zPXtvcHRpb25zPy5qb2JfdHlwZXN9CiAgICAgICAgLz4KICAgICAgICA8RmlsdGVyU2VsZWN0CiAgICAgICAgICBsYWJlbD0iV29yayBtb2RlIgogICAgICAgICAgdmFsdWU9e3ZhbHVlLndvcmtfbW9kZX0KICAgICAgICAgIG9uQ2hhbmdlPXsodikgPT4gc2V0KHsgd29ya19tb2RlOiB2IH0pfQogICAgICAgICAgb3B0aW9ucz17b3B0aW9ucz8ud29ya19tb2Rlc30KICAgICAgICAvPgogICAgICAgIDxGaWx0ZXJTZWxlY3QKICAgICAgICAgIGxhYmVsPSJFeHBlcmllbmNlIgogICAgICAgICAgdmFsdWU9e3ZhbHVlLmV4cF9sZXZlbH0KICAgICAgICAgIG9uQ2hhbmdlPXsodikgPT4gc2V0KHsgZXhwX2xldmVsOiB2IH0pfQogICAgICAgICAgb3B0aW9ucz17b3B0aW9ucz8uZXhwZXJpZW5jZV9sZXZlbHN9CiAgICAgICAgLz4KICAgICAgICA8c2VsZWN0CiAgICAgICAgICB2YWx1ZT17dmFsdWUuc29ydF9ieX0KICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0KHsgc29ydF9ieTogZS50YXJnZXQudmFsdWUgfSl9CiAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctYmFja2dyb3VuZCBweC0yLjUgcHktMSB0ZXh0LXhzIHRleHQtZm9yZWdyb3VuZC84MCIKICAgICAgICA+CiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJuZXdlc3QiPk5ld2VzdCBmaXJzdDwvb3B0aW9uPgogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0ibW9zdF9yZWxldmFudCI+TW9zdCByZWxldmFudDwvb3B0aW9uPgogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iaGlnaF9jcGEiPkhpZ2ggcHJpb3JpdHk8L29wdGlvbj4KICAgICAgICA8L3NlbGVjdD4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpmdW5jdGlvbiBGaWx0ZXJTZWxlY3QoewogIGxhYmVsLAogIHZhbHVlLAogIG9uQ2hhbmdlLAogIG9wdGlvbnMsCn06IHsKICBsYWJlbDogc3RyaW5nOwogIHZhbHVlOiBzdHJpbmc7CiAgb25DaGFuZ2U6ICh2OiBzdHJpbmcpID0+IHZvaWQ7CiAgb3B0aW9uczogeyB2YWx1ZTogc3RyaW5nOyBjb3VudDogbnVtYmVyIH1bXSB8IHVuZGVmaW5lZDsKfSkgewogIHJldHVybiAoCiAgICA8c2VsZWN0CiAgICAgIHZhbHVlPXt2YWx1ZX0KICAgICAgb25DaGFuZ2U9eyhlKSA9PiBvbkNoYW5nZShlLnRhcmdldC52YWx1ZSl9CiAgICAgIGNsYXNzTmFtZT0icm91bmRlZCBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1iYWNrZ3JvdW5kIHB4LTIuNSBweS0xIHRleHQteHMgdGV4dC1mb3JlZ3JvdW5kLzgwIgogICAgPgogICAgICA8b3B0aW9uIHZhbHVlPSIiPntsYWJlbH06IGFueTwvb3B0aW9uPgogICAgICB7b3B0aW9ucz8ubWFwKChvcHQpID0+ICgKICAgICAgICA8b3B0aW9uIGtleT17b3B0LnZhbHVlfSB2YWx1ZT17b3B0LnZhbHVlfT4KICAgICAgICAgIHtvcHQudmFsdWV9CiAgICAgICAgPC9vcHRpb24+CiAgICAgICkpfQogICAgPC9zZWxlY3Q+CiAgKTsKfQo=
+import { useEffect, useState } from "react";
+import type { ArthaFilters } from "@/lib/jobs/types";
+import { getJobFilters } from "@/lib/jobs/jobs.functions";
+
+export interface Filters {
+  q: string;
+  location: string;
+  job_type: string;
+  work_mode: string;
+  exp_level: string;
+  sort_by: string;
+}
+
+export const emptyFilters: Filters = {
+  q: "",
+  location: "",
+  job_type: "",
+  work_mode: "",
+  exp_level: "",
+  sort_by: "newest",
+};
+
+export default function FilterBar({
+  value,
+  onChange,
+}: {
+  value: Filters;
+  onChange: (f: Filters) => void;
+}) {
+  const [options, setOptions] = useState<ArthaFilters | null>(null);
+
+  // Local, uncommitted text so every keystroke doesn't trigger a fetch.
+  // Only pushed up to onChange after the user pauses typing for a bit.
+  const [qDraft, setQDraft] = useState(value.q);
+
+  // Keep the draft in sync if the parent resets filters.
+  useEffect(() => {
+    setQDraft(value.q);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [value.q]);
+
+  useEffect(() => {
+    if (qDraft === value.q) return;
+    const timeout = setTimeout(() => {
+      set({ q: qDraft });
+    }, 400);
+    return () => clearTimeout(timeout);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [qDraft]);
+
+  useEffect(() => {
+    getJobFilters()
+      .then(setOptions)
+      .catch(() => {
+        /* filter dropdowns are a nice-to-have; fail quietly and keep free-text search */
+      });
+  }, []);
+
+  const set = (patch: Partial<Filters>) => onChange({ ...value, ...patch });
+
+  const activeFilterCount = [
+    value.job_type,
+    value.work_mode,
+    value.exp_level,
+    value.sort_by !== "newest" ? value.sort_by : "",
+  ].filter(Boolean).length;
+
+  return (
+    <div className="flex flex-col gap-3">
+      {/* Hero search — the primary way into the site. */}
+      <div className="pinned-card flex items-center gap-3 px-5 py-4 md:px-6 md:py-5">
+        <svg
+          className="h-6 w-6 shrink-0 text-foreground/40"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          aria-hidden="true"
+        >
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+        </svg>
+        <input
+          type="text"
+          placeholder="Search job titles, companies, or skills..."
+          value={qDraft}
+          onChange={(e) => setQDraft(e.target.value)}
+          className="w-full bg-transparent text-xl outline-none placeholder:text-foreground/35 md:text-2xl"
+        />
+        {qDraft && (
+          <button
+            type="button"
+            onClick={() => setQDraft("")}
+            aria-label="Clear search"
+            className="shrink-0 px-1 text-xl leading-none text-foreground/40 hover:text-foreground"
+          >
+            ×
+          </button>
+        )}
+      </div>
+
+      {/* Secondary filters — smaller, quieter, below the hero search */}
+      <div className="flex flex-wrap items-center gap-2 px-1">
+        <span className="mr-1 text-xs uppercase tracking-wide text-foreground/40">
+          Refine{activeFilterCount > 0 ? ` (${activeFilterCount})` : ""}:
+        </span>
+        <FilterSelect
+          label="Type"
+          value={value.job_type}
+          onChange={(v) => set({ job_type: v })}
+          options={options?.job_types}
+        />
+        <FilterSelect
+          label="Work mode"
+          value={value.work_mode}
+          onChange={(v) => set({ work_mode: v })}
+          options={options?.work_modes}
+        />
+        <FilterSelect
+          label="Experience"
+          value={value.exp_level}
+          onChange={(v) => set({ exp_level: v })}
+          options={options?.experience_levels}
+        />
+        <select
+          value={value.sort_by}
+          onChange={(e) => set({ sort_by: e.target.value })}
+          className="rounded border border-border bg-background px-2.5 py-1 text-xs text-foreground/80"
+        >
+          <option value="newest">Newest first</option>
+          <option value="most_relevant">Most relevant</option>
+          <option value="high_cpa">High priority</option>
+        </select>
+      </div>
+    </div>
+  );
+}
+
+function FilterSelect({
+  label,
+  value,
+  onChange,
+  options,
+}: {
+  label: string;
+  value: string;
+  onChange: (v: string) => void;
+  options: { value: string; count: number }[] | undefined;
+}) {
+  return (
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value)}
+      className="rounded border border-border bg-background px-2.5 py-1 text-xs text-foreground/80"
+    >
+      <option value="">{label}: any</option>
+      {options?.map((opt) => (
+        <option key={opt.value} value={opt.value}>
+          {opt.value}
+        </option>
+      ))}
+    </select>
+  );
+}

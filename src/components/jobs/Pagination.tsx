@@ -1,1 +1,36 @@
-ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUGFnaW5hdGlvbih7CiAgb2Zmc2V0LAogIGxpbWl0LAogIHRvdGFsLAogIG9uQ2hhbmdlLAp9OiB7CiAgb2Zmc2V0OiBudW1iZXI7CiAgbGltaXQ6IG51bWJlcjsKICB0b3RhbDogbnVtYmVyOwogIG9uQ2hhbmdlOiAobmV3T2Zmc2V0OiBudW1iZXIpID0+IHZvaWQ7Cn0pIHsKICBjb25zdCBwYWdlID0gTWF0aC5mbG9vcihvZmZzZXQgLyBsaW1pdCkgKyAxOwogIGNvbnN0IHRvdGFsUGFnZXMgPSBNYXRoLm1heCgxLCBNYXRoLmNlaWwodG90YWwgLyBsaW1pdCkpOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBwdC00IHRleHQtc20iPgogICAgICA8YnV0dG9uCiAgICAgICAgZGlzYWJsZWQ9e29mZnNldCA9PT0gMH0KICAgICAgICBvbkNsaWNrPXsoKSA9PiBvbkNoYW5nZShNYXRoLm1heCgwLCBvZmZzZXQgLSBsaW1pdCkpfQogICAgICAgIGNsYXNzTmFtZT0icm91bmRlZCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTEuNSBob3Zlcjpib3JkZXItYWNjZW50IGRpc2FibGVkOm9wYWNpdHktMzAiCiAgICAgID4KICAgICAgICBQcmV2aW91cwogICAgICA8L2J1dHRvbj4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIFBhZ2Uge3BhZ2V9IG9mIHt0b3RhbFBhZ2VzfQogICAgICA8L3NwYW4+CiAgICAgIDxidXR0b24KICAgICAgICBkaXNhYmxlZD17b2Zmc2V0ICsgbGltaXQgPj0gdG90YWx9CiAgICAgICAgb25DbGljaz17KCkgPT4gb25DaGFuZ2Uob2Zmc2V0ICsgbGltaXQpfQogICAgICAgIGNsYXNzTmFtZT0icm91bmRlZCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTEuNSBob3Zlcjpib3JkZXItYWNjZW50IGRpc2FibGVkOm9wYWNpdHktMzAiCiAgICAgID4KICAgICAgICBOZXh0CiAgICAgIDwvYnV0dG9uPgogICAgPC9kaXY+CiAgKTsKfQo=
+export default function Pagination({
+  offset,
+  limit,
+  total,
+  onChange,
+}: {
+  offset: number;
+  limit: number;
+  total: number;
+  onChange: (newOffset: number) => void;
+}) {
+  const page = Math.floor(offset / limit) + 1;
+  const totalPages = Math.max(1, Math.ceil(total / limit));
+
+  return (
+    <div className="flex items-center justify-between pt-4 text-sm">
+      <button
+        disabled={offset === 0}
+        onClick={() => onChange(Math.max(0, offset - limit))}
+        className="rounded border border-border px-3 py-1.5 hover:border-accent disabled:opacity-30"
+      >
+        Previous
+      </button>
+      <span className="text-muted-foreground">
+        Page {page} of {totalPages}
+      </span>
+      <button
+        disabled={offset + limit >= total}
+        onClick={() => onChange(offset + limit)}
+        className="rounded border border-border px-3 py-1.5 hover:border-accent disabled:opacity-30"
+      >
+        Next
+      </button>
+    </div>
+  );
+}

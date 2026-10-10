@@ -1,1 +1,365 @@
-ZXhwb3J0IHR5cGUgSnNvbiA9CiAgfCBzdHJpbmcKICB8IG51bWJlcgogIHwgYm9vbGVhbgogIHwgbnVsbAogIHwgeyBba2V5OiBzdHJpbmddOiBKc29uIHwgdW5kZWZpbmVkIH0KICB8IEpzb25bXQoKZXhwb3J0IHR5cGUgRGF0YWJhc2UgPSB7CiAgLy8gQWxsb3dzIHRvIGF1dG9tYXRpY2FsbHkgaW5zdGFudGlhdGUgY3JlYXRlQ2xpZW50IHdpdGggcmlnaHQgb3B0aW9ucwogIC8vIGluc3RlYWQgb2YgY3JlYXRlQ2xpZW50PERhdGFiYXNlLCB7IFBvc3RncmVzdFZlcnNpb246ICdYWCcgfT4oVVJMLCBLRVkpCiAgX19JbnRlcm5hbFN1cGFiYXNlOiB7CiAgICBQb3N0Z3Jlc3RWZXJzaW9uOiAiMTQuMTgiCiAgfQogIHB1YmxpYzogewogICAgVGFibGVzOiB7CiAgICAgIGFwcGxpY2F0aW9uX2FjdGl2aXR5OiB7CiAgICAgICAgUm93OiB7CiAgICAgICAgICBhcHBsaWNhdGlvbl9pZDogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIGV2ZW50OiBzdHJpbmcKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGFwcGxpY2F0aW9uX2lkOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGV2ZW50OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhcHBsaWNhdGlvbl9pZD86IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZXZlbnQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICB1c2VyX2lkPzogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFJlbGF0aW9uc2hpcHM6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgZm9yZWlnbktleU5hbWU6ICJhcHBsaWNhdGlvbl9hY3Rpdml0eV9hcHBsaWNhdGlvbl9pZF9ma2V5IgogICAgICAgICAgICBjb2x1bW5zOiBbImFwcGxpY2F0aW9uX2lkIl0KICAgICAgICAgICAgaXNPbmVUb09uZTogZmFsc2UKICAgICAgICAgICAgcmVmZXJlbmNlZFJlbGF0aW9uOiAiYXBwbGljYXRpb25zIgogICAgICAgICAgICByZWZlcmVuY2VkQ29sdW1uczogWyJpZCJdCiAgICAgICAgICB9LAogICAgICAgIF0KICAgICAgfQogICAgICBhcHBsaWNhdGlvbnM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGFwcGxpZWRfYXQ6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNvbXBhbnk6IHN0cmluZwogICAgICAgICAgY3JlYXRlZF9hdDogc3RyaW5nCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgICBqb2JfdGl0bGU6IHN0cmluZwogICAgICAgICAgam9iX3VybDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgbG9jYXRpb246IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5vdGVzOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzYWxhcnk6IHN0cmluZyB8IG51bGwKICAgICAgICAgIHN0YXR1czogc3RyaW5nCiAgICAgICAgICB1cGRhdGVkX2F0OiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGFwcGxpZWRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjb21wYW55OiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBqb2JfdGl0bGU6IHN0cmluZwogICAgICAgICAgam9iX3VybD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGxvY2F0aW9uPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgbm90ZXM/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzYWxhcnk/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzdGF0dXM/OiBzdHJpbmcKICAgICAgICAgIHVwZGF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBVcGRhdGU6IHsKICAgICAgICAgIGFwcGxpZWRfYXQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBjb21wYW55Pzogc3RyaW5nCiAgICAgICAgICBjcmVhdGVkX2F0Pzogc3RyaW5nCiAgICAgICAgICBpZD86IHN0cmluZwogICAgICAgICAgam9iX3RpdGxlPzogc3RyaW5nCiAgICAgICAgICBqb2JfdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgbG9jYXRpb24/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBub3Rlcz86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHNhbGFyeT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIHN0YXR1cz86IHN0cmluZwogICAgICAgICAgdXBkYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgdXNlcl9pZD86IHN0cmluZwogICAgICAgIH0KICAgICAgICBSZWxhdGlvbnNoaXBzOiBbXQogICAgICB9CiAgICAgIGludGVydmlld3M6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGFwcGxpY2F0aW9uX2lkOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgaWQ6IHN0cmluZwogICAgICAgICAgbG9jYXRpb246IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5vdGVzOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICByb3VuZDogc3RyaW5nIHwgbnVsbAogICAgICAgICAgc2NoZWR1bGVkX2F0OiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ6IHN0cmluZwogICAgICAgIH0KICAgICAgICBJbnNlcnQ6IHsKICAgICAgICAgIGFwcGxpY2F0aW9uX2lkOiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBsb2NhdGlvbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5vdGVzPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcm91bmQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzY2hlZHVsZWRfYXQ6IHN0cmluZwogICAgICAgICAgdXNlcl9pZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIFVwZGF0ZTogewogICAgICAgICAgYXBwbGljYXRpb25faWQ/OiBzdHJpbmcKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGlkPzogc3RyaW5nCiAgICAgICAgICBsb2NhdGlvbj86IHN0cmluZyB8IG51bGwKICAgICAgICAgIG5vdGVzPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgcm91bmQ/OiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBzY2hlZHVsZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIHVzZXJfaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogWwogICAgICAgICAgewogICAgICAgICAgICBmb3JlaWduS2V5TmFtZTogImludGVydmlld3NfYXBwbGljYXRpb25faWRfZmtleSIKICAgICAgICAgICAgY29sdW1uczogWyJhcHBsaWNhdGlvbl9pZCJdCiAgICAgICAgICAgIGlzT25lVG9PbmU6IGZhbHNlCiAgICAgICAgICAgIHJlZmVyZW5jZWRSZWxhdGlvbjogImFwcGxpY2F0aW9ucyIKICAgICAgICAgICAgcmVmZXJlbmNlZENvbHVtbnM6IFsiaWQiXQogICAgICAgICAgfSwKICAgICAgICBdCiAgICAgIH0KICAgICAgcHJvZmlsZXM6IHsKICAgICAgICBSb3c6IHsKICAgICAgICAgIGF2YXRhcl91cmw6IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ6IHN0cmluZwogICAgICAgICAgZGlzcGxheV9uYW1lOiBzdHJpbmcgfCBudWxsCiAgICAgICAgICBpZDogc3RyaW5nCiAgICAgICAgfQogICAgICAgIEluc2VydDogewogICAgICAgICAgYXZhdGFyX3VybD86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGNyZWF0ZWRfYXQ/OiBzdHJpbmcKICAgICAgICAgIGRpc3BsYXlfbmFtZT86IHN0cmluZyB8IG51bGwKICAgICAgICAgIGlkOiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgVXBkYXRlOiB7CiAgICAgICAgICBhdmF0YXJfdXJsPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgY3JlYXRlZF9hdD86IHN0cmluZwogICAgICAgICAgZGlzcGxheV9uYW1lPzogc3RyaW5nIHwgbnVsbAogICAgICAgICAgaWQ/OiBzdHJpbmcKICAgICAgICB9CiAgICAgICAgUmVsYXRpb25zaGlwczogW10KICAgICAgfQogICAgfQogICAgVmlld3M6IHsKICAgICAgW18gaW4gbmV2ZXJdOiBuZXZlcgogICAgfQogICAgRnVuY3Rpb25zOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIEVudW1zOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICAgIENvbXBvc2l0ZVR5cGVzOiB7CiAgICAgIFtfIGluIG5ldmVyXTogbmV2ZXIKICAgIH0KICB9Cn0KCnR5cGUgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzID0gT21pdDxEYXRhYmFzZSwgIl9fSW50ZXJuYWxTdXBhYmFzZSI+Cgp0eXBlIERlZmF1bHRTY2hlbWEgPSBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRXh0cmFjdDxrZXlvZiBEYXRhYmFzZSwgInB1YmxpYyI+XQoKZXhwb3J0IHR5cGUgVGFibGVzPAogIERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJiBEZWZhdWx0U2NoZW1hWyJWaWV3cyJdKQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgVGFibGVOYW1lIGV4dGVuZHMgKERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwogIH0KICAgID8ga2V5b2YgKERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdICYKICAgICAgICBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJWaWV3cyJdKQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gKERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdICYKICAgICAgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVmlld3MiXSlbVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgUm93OiBpbmZlciBSCiAgICB9CiAgICA/IFIKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiAoRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0gJgogICAgICAgIERlZmF1bHRTY2hlbWFbIlZpZXdzIl0pCiAgICA/IChEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXSAmCiAgICAgICAgRGVmYXVsdFNjaGVtYVsiVmlld3MiXSlbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc10gZXh0ZW5kcyB7CiAgICAgICAgUm93OiBpbmZlciBSCiAgICAgIH0KICAgICAgPyBSCiAgICAgIDogbmV2ZXIKICAgIDogbmV2ZXIKCmV4cG9ydCB0eXBlIFRhYmxlc0luc2VydDwKICBEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiVGFibGVzIl0KICAgIHwgeyBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscyB9LAogIFRhYmxlTmFtZSBleHRlbmRzIChEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIlRhYmxlcyJdCiAgICA6IG5ldmVyKSA9IG5ldmVyLAo+ID0gRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXVtUYWJsZU5hbWVdIGV4dGVuZHMgewogICAgICBJbnNlcnQ6IGluZmVyIEkKICAgIH0KICAgID8gSQogICAgOiBuZXZlcgogIDogRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNdIGV4dGVuZHMgewogICAgICAgIEluc2VydDogaW5mZXIgSQogICAgICB9CiAgICAgID8gSQogICAgICA6IG5ldmVyCiAgICA6IG5ldmVyCgpleHBvcnQgdHlwZSBUYWJsZXNVcGRhdGU8CiAgRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzCiAgICB8IGtleW9mIERlZmF1bHRTY2hlbWFbIlRhYmxlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBUYWJsZU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYVRhYmxlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJUYWJsZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyB7CiAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKfQogID8gRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzW0RlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiVGFibGVzIl1bVGFibGVOYW1lXSBleHRlbmRzIHsKICAgICAgVXBkYXRlOiBpbmZlciBVCiAgICB9CiAgICA/IFUKICAgIDogbmV2ZXIKICA6IERlZmF1bHRTY2hlbWFUYWJsZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXQogICAgPyBEZWZhdWx0U2NoZW1hWyJUYWJsZXMiXVtEZWZhdWx0U2NoZW1hVGFibGVOYW1lT3JPcHRpb25zXSBleHRlbmRzIHsKICAgICAgICBVcGRhdGU6IGluZmVyIFUKICAgICAgfQogICAgICA/IFUKICAgICAgOiBuZXZlcgogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgRW51bXM8CiAgRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMKICAgIHwga2V5b2YgRGVmYXVsdFNjaGVtYVsiRW51bXMiXQogICAgfCB7IHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzIH0sCiAgRW51bU5hbWUgZXh0ZW5kcyAoRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zIGV4dGVuZHMgewogICAgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMKICB9CiAgICA/IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFsc1tEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiRW51bXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IERlZmF1bHRTY2hlbWFFbnVtTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICBzY2hlbWE6IGtleW9mIERhdGFiYXNlV2l0aG91dEludGVybmFscwp9CiAgPyBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zWyJzY2hlbWEiXV1bIkVudW1zIl1bRW51bU5hbWVdCiAgOiBEZWZhdWx0U2NoZW1hRW51bU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJFbnVtcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIkVudW1zIl1bRGVmYXVsdFNjaGVtYUVudW1OYW1lT3JPcHRpb25zXQogICAgOiBuZXZlcgoKZXhwb3J0IHR5cGUgQ29tcG9zaXRlVHlwZXM8CiAgUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcwogICAgfCBrZXlvZiBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdCiAgICB8IHsgc2NoZW1hOiBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHMgfSwKICBDb21wb3NpdGVUeXBlTmFtZSBleHRlbmRzIChQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9ucyBleHRlbmRzIHsKICAgIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCiAgfQogICAgPyBrZXlvZiBEYXRhYmFzZVdpdGhvdXRJbnRlcm5hbHNbUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNbInNjaGVtYSJdXVsiQ29tcG9zaXRlVHlwZXMiXQogICAgOiBuZXZlcikgPSBuZXZlciwKPiA9IFB1YmxpY0NvbXBvc2l0ZVR5cGVOYW1lT3JPcHRpb25zIGV4dGVuZHMgewogIHNjaGVtYToga2V5b2YgRGF0YWJhc2VXaXRob3V0SW50ZXJuYWxzCn0KICA/IERhdGFiYXNlV2l0aG91dEludGVybmFsc1tQdWJsaWNDb21wb3NpdGVUeXBlTmFtZU9yT3B0aW9uc1sic2NoZW1hIl1dWyJDb21wb3NpdGVUeXBlcyJdW0NvbXBvc2l0ZVR5cGVOYW1lXQogIDogUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnMgZXh0ZW5kcyBrZXlvZiBEZWZhdWx0U2NoZW1hWyJDb21wb3NpdGVUeXBlcyJdCiAgICA/IERlZmF1bHRTY2hlbWFbIkNvbXBvc2l0ZVR5cGVzIl1bUHVibGljQ29tcG9zaXRlVHlwZU5hbWVPck9wdGlvbnNdCiAgICA6IG5ldmVyCgpleHBvcnQgY29uc3QgQ29uc3RhbnRzID0gewogIHB1YmxpYzogewogICAgRW51bXM6IHt9LAogIH0sCn0gYXMgY29uc3QK
+export type Json =
+  | string
+  | number
+  | boolean
+  | null
+  | { [key: string]: Json | undefined }
+  | Json[]
+
+export type Database = {
+  // Allows to automatically instantiate createClient with right options
+  // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
+  __InternalSupabase: {
+    PostgrestVersion: "14.18"
+  }
+  public: {
+    Tables: {
+      application_activity: {
+        Row: {
+          application_id: string
+          created_at: string
+          event: string
+          id: string
+          user_id: string
+        }
+        Insert: {
+          application_id: string
+          created_at?: string
+          event: string
+          id?: string
+          user_id: string
+        }
+        Update: {
+          application_id?: string
+          created_at?: string
+          event?: string
+          id?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "application_activity_application_id_fkey"
+            columns: ["application_id"]
+            isOneToOne: false
+            referencedRelation: "applications"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      applications: {
+        Row: {
+          applied_at: string | null
+          company: string
+          created_at: string
+          id: string
+          job_title: string
+          job_url: string | null
+          location: string | null
+          notes: string | null
+          salary: string | null
+          status: string
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          applied_at?: string | null
+          company: string
+          created_at?: string
+          id?: string
+          job_title: string
+          job_url?: string | null
+          location?: string | null
+          notes?: string | null
+          salary?: string | null
+          status?: string
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          applied_at?: string | null
+          company?: string
+          created_at?: string
+          id?: string
+          job_title?: string
+          job_url?: string | null
+          location?: string | null
+          notes?: string | null
+          salary?: string | null
+          status?: string
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: []
+      }
+      cached_jobs: {
+        Row: {
+          apply_url: string
+          city: string | null
+          company: string
+          country: string | null
+          created_at: string
+          description: string
+          exp_max: number | null
+          exp_min: number | null
+          exp_unit: string | null
+          job_type: string | null
+          last_seen_at: string
+          location: string | null
+          logo: string | null
+          posted_date: string | null
+          salary_curr: string | null
+          salary_max: number | null
+          salary_min: number | null
+          skills: string[]
+          slug: string
+          state: string | null
+          title: string
+        }
+        Insert: {
+          apply_url: string
+          city?: string | null
+          company: string
+          country?: string | null
+          created_at?: string
+          description?: string
+          exp_max?: number | null
+          exp_min?: number | null
+          exp_unit?: string | null
+          job_type?: string | null
+          last_seen_at?: string
+          location?: string | null
+          logo?: string | null
+          posted_date?: string | null
+          salary_curr?: string | null
+          salary_max?: number | null
+          salary_min?: number | null
+          skills?: string[]
+          slug: string
+          state?: string | null
+          title: string
+        }
+        Update: {
+          apply_url?: string
+          city?: string | null
+          company?: string
+          country?: string | null
+          created_at?: string
+          description?: string
+          exp_max?: number | null
+          exp_min?: number | null
+          exp_unit?: string | null
+          job_type?: string | null
+          last_seen_at?: string
+          location?: string | null
+          logo?: string | null
+          posted_date?: string | null
+          salary_curr?: string | null
+          salary_max?: number | null
+          salary_min?: number | null
+          skills?: string[]
+          slug?: string
+          state?: string | null
+          title?: string
+        }
+        Relationships: []
+      }
+      interviews: {
+        Row: {
+          application_id: string
+          created_at: string
+          id: string
+          location: string | null
+          notes: string | null
+          round: string | null
+          scheduled_at: string
+          user_id: string
+        }
+        Insert: {
+          application_id: string
+          created_at?: string
+          id?: string
+          location?: string | null
+          notes?: string | null
+          round?: string | null
+          scheduled_at: string
+          user_id: string
+        }
+        Update: {
+          application_id?: string
+          created_at?: string
+          id?: string
+          location?: string | null
+          notes?: string | null
+          round?: string | null
+          scheduled_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "interviews_application_id_fkey"
+            columns: ["application_id"]
+            isOneToOne: false
+            referencedRelation: "applications"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      profiles: {
+        Row: {
+          avatar_url: string | null
+          created_at: string
+          display_name: string | null
+          id: string
+        }
+        Insert: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id: string
+        }
+        Update: {
+          avatar_url?: string | null
+          created_at?: string
+          display_name?: string | null
+          id?: string
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+}
+
+type DatabaseWithoutInternals = Omit<Database, "__InternalSupabase">
+
+type DefaultSchema = DatabaseWithoutInternals[Extract<keyof Database, "public">]
+
+export type Tables<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+        DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
+      DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])[TableName] extends {
+      Row: infer R
+    }
+    ? R
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])
+    ? (DefaultSchema["Tables"] &
+        DefaultSchema["Views"])[DefaultSchemaTableNameOrOptions] extends {
+        Row: infer R
+      }
+      ? R
+      : never
+    : never
+
+export type TablesInsert<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Insert: infer I
+    }
+    ? I
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Insert: infer I
+      }
+      ? I
+      : never
+    : never
+
+export type TablesUpdate<
+  DefaultSchemaTableNameOrOptions extends
+    | keyof DefaultSchema["Tables"]
+    | { schema: keyof DatabaseWithoutInternals },
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
+    : never) = never,
+> = DefaultSchemaTableNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"][TableName] extends {
+      Update: infer U
+    }
+    ? U
+    : never
+  : DefaultSchemaTableNameOrOptions extends keyof DefaultSchema["Tables"]
+    ? DefaultSchema["Tables"][DefaultSchemaTableNameOrOptions] extends {
+        Update: infer U
+      }
+      ? U
+      : never
+    : never
+
+export type Enums<
+  DefaultSchemaEnumNameOrOptions extends
+    | keyof DefaultSchema["Enums"]
+    | { schema: keyof DatabaseWithoutInternals },
+  EnumName extends (DefaultSchemaEnumNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
+    : never) = never,
+> = DefaultSchemaEnumNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"][EnumName]
+  : DefaultSchemaEnumNameOrOptions extends keyof DefaultSchema["Enums"]
+    ? DefaultSchema["Enums"][DefaultSchemaEnumNameOrOptions]
+    : never
+
+export type CompositeTypes<
+  PublicCompositeTypeNameOrOptions extends
+    | keyof DefaultSchema["CompositeTypes"]
+    | { schema: keyof DatabaseWithoutInternals },
+  CompositeTypeName extends (PublicCompositeTypeNameOrOptions extends {
+    schema: keyof DatabaseWithoutInternals
+  }
+    ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
+    : never) = never,
+> = PublicCompositeTypeNameOrOptions extends {
+  schema: keyof DatabaseWithoutInternals
+}
+  ? DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"][CompositeTypeName]
+  : PublicCompositeTypeNameOrOptions extends keyof DefaultSchema["CompositeTypes"]
+    ? DefaultSchema["CompositeTypes"][PublicCompositeTypeNameOrOptions]
+    : never
+
+export const Constants = {
+  public: {
+    Enums: {},
+  },
+} as const

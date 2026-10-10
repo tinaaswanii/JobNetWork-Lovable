@@ -1,1 +1,93 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IEJyaWVmY2FzZSwgS2FuYmFuU3F1YXJlLCBDYWxlbmRhckNoZWNrLCBIaXN0b3J5IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi8iKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogIkpvYk5ldFdvcmsgVHJhY2tlciDigJQgWW91ciBwcml2YXRlIGpvYiBhcHBsaWNhdGlvbiBkYXNoYm9hcmQiIH0sCiAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogIlRyYWNrIGpvYiBhcHBsaWNhdGlvbnMsIGludGVydmlld3MsIGFuZCBmb2xsb3ctdXBzIGluIG9uZSBwcml2YXRlIGRhc2hib2FyZC4gU2lnbiBpbiB3aXRoIEdvb2dsZS4iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICJKb2JOZXRXb3JrIFRyYWNrZXIg4oCUIFlvdXIgcHJpdmF0ZSBqb2IgYXBwbGljYXRpb24gZGFzaGJvYXJkIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAiVHJhY2sgam9iIGFwcGxpY2F0aW9ucywgaW50ZXJ2aWV3cywgYW5kIGZvbGxvdy11cHMgaW4gb25lIHByaXZhdGUgZGFzaGJvYXJkLiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAid2Vic2l0ZSIgfSwKICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogSW5kZXgsCn0pOwoKY29uc3QgZmVhdHVyZXMgPSBbCiAgewogICAgaWNvbjogS2FuYmFuU3F1YXJlLAogICAgdGl0bGU6ICJUcmFjayBldmVyeSBhcHBsaWNhdGlvbiIsCiAgICB0ZXh0OiAiRnJvbSBzYXZlZCB0byBvZmZlciDigJQgYSBjbGVhciBzdGF0dXMgcGlwZWxpbmUgZm9yIGVhY2ggam9iIHlvdSBwdXJzdWUuIiwKICB9LAogIHsKICAgIGljb246IENhbGVuZGFyQ2hlY2ssCiAgICB0aXRsZTogIk1hbmFnZSBpbnRlcnZpZXdzIiwKICAgIHRleHQ6ICJTY2hlZHVsZSBpbnRlcnZpZXcgcm91bmRzIGFuZCBrZWVwIG5vdGVzIGZvciBldmVyeSBjb252ZXJzYXRpb24uIiwKICB9LAogIHsKICAgIGljb246IEhpc3RvcnksCiAgICB0aXRsZTogIkZvbGxvdy11cCBoaXN0b3J5IiwKICAgIHRleHQ6ICJBIGZ1bGwgYWN0aXZpdHkgdHJhaWwgc28geW91IGFsd2F5cyBrbm93IHdoZXJlIHRoaW5ncyBzdGFuZC4iLAogIH0sCl07CgpmdW5jdGlvbiBJbmRleCgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImJvcmRlci1iIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IG1heC13LTV4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHB4LTQgcHktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBoLTggdy04IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIGJnLXByaW1hcnkiPgogICAgICAgICAgICAgIDxCcmllZmNhc2UgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIj5Kb2JOZXRXb3JrIFRyYWNrZXI8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgYXNDaGlsZD4KICAgICAgICAgICAgICA8TGluayB0bz0iL2pvYnMiPkJyb3dzZSBqb2JzPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkPgogICAgICAgICAgICAgIDxMaW5rIHRvPSIvYXV0aCI+U2lnbiBpbjwvTGluaz4KICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9oZWFkZXI+CgogICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNXhsIHB4LTQiPgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktMjAgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcm91bmRlZC1mdWxsIGJnLWFjY2VudCBweC0zIHB5LTEgdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtYWNjZW50LWZvcmVncm91bmQiPgogICAgICAgICAgICBQcml2YXRlIGJ5IGRlZmF1bHQKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9Im14LWF1dG8gbXQtNiBtYXgtdy0yeGwgdGV4dC00eGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0IHNtOnRleHQtNXhsIj4KICAgICAgICAgICAgWW91ciBqb2Igc2VhcmNoLCBvcmdhbml6ZWQgaW4gb25lIGRhc2hib2FyZAogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXgtYXV0byBtdC00IG1heC13LXhsIHRleHQtbGcgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgU2F2ZSBqb2JzLCB0cmFjayBhcHBsaWNhdGlvbnMgdGhyb3VnaCBldmVyeSBzdGFnZSwgYW5kIG5ldmVyIG1pc3MgYW4KICAgICAgICAgICAgaW50ZXJ2aWV3IG9yIGZvbGxvdy11cCBhZ2Fpbi4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHNpemU9ImxnIj4KICAgICAgICAgICAgICA8TGluayB0bz0iL2F1dGgiPkdldCBzdGFydGVkIHdpdGggR29vZ2xlPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiBhc0NoaWxkIHNpemU9ImxnIiB2YXJpYW50PSJvdXRsaW5lIj4KICAgICAgICAgICAgICA8TGluayB0bz0iL2pvYnMiPkJyb3dzZSBqb2JzPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJncmlkIGdhcC02IHBiLTIwIHNtOmdyaWQtY29scy0zIj4KICAgICAgICAgIHtmZWF0dXJlcy5tYXAoKGYpID0+ICgKICAgICAgICAgICAgPGRpdiBrZXk9e2YudGl0bGV9IGNsYXNzTmFtZT0icm91bmRlZC14bCBib3JkZXIgYmctY2FyZCBwLTYiPgogICAgICAgICAgICAgIDxmLmljb24gY2xhc3NOYW1lPSJoLTggdy04IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJtdC00IGZvbnQtc2VtaWJvbGQiPntmLnRpdGxlfTwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57Zi50ZXh0fTwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L3NlY3Rpb24+CiAgICAgIDwvbWFpbj4KICAgIDwvZGl2PgogICk7Cn0K
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { Briefcase, KanbanSquare, CalendarCheck, History } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "JobNetWork Tracker — Your private job application dashboard" },
+      { name: "description", content: "Track job applications, interviews, and follow-ups in one private dashboard. Sign in with Google." },
+      { property: "og:title", content: "JobNetWork Tracker — Your private job application dashboard" },
+      { property: "og:description", content: "Track job applications, interviews, and follow-ups in one private dashboard." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: Index,
+});
+
+const features = [
+  {
+    icon: KanbanSquare,
+    title: "Track every application",
+    text: "From saved to offer — a clear status pipeline for each job you pursue.",
+  },
+  {
+    icon: CalendarCheck,
+    title: "Manage interviews",
+    text: "Schedule interview rounds and keep notes for every conversation.",
+  },
+  {
+    icon: History,
+    title: "Follow-up history",
+    text: "A full activity trail so you always know where things stand.",
+  },
+];
+
+function Index() {
+  return (
+    <div className="min-h-screen bg-background">
+      <header className="border-b">
+        <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-4">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
+              <Briefcase className="h-4 w-4 text-primary-foreground" />
+            </div>
+            <span className="font-semibold">JobNetWork Tracker</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button variant="outline" asChild>
+              <Link to="/jobs">Browse jobs</Link>
+            </Button>
+            <Button asChild>
+              <Link to="/auth">Sign in</Link>
+            </Button>
+          </div>
+        </div>
+      </header>
+
+      <main className="mx-auto max-w-5xl px-4">
+        <section className="py-20 text-center">
+          <span className="inline-block rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-foreground">
+            Private by default
+          </span>
+          <h1 className="mx-auto mt-6 max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">
+            Your job search, organized in one dashboard
+          </h1>
+          <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
+            Save jobs, track applications through every stage, and never miss an
+            interview or follow-up again.
+          </p>
+          <div className="mt-8 flex items-center justify-center gap-3">
+            <Button asChild size="lg">
+              <Link to="/auth">Get started with Google</Link>
+            </Button>
+            <Button asChild size="lg" variant="outline">
+              <Link to="/jobs">Browse jobs</Link>
+            </Button>
+          </div>
+        </section>
+
+        <section className="grid gap-6 pb-20 sm:grid-cols-3">
+          {features.map((f) => (
+            <div key={f.title} className="rounded-xl border bg-card p-6">
+              <f.icon className="h-8 w-8 text-primary" />
+              <h3 className="mt-4 font-semibold">{f.title}</h3>
+              <p className="mt-2 text-sm text-muted-foreground">{f.text}</p>
+            </div>
+          ))}
+        </section>
+      </main>
+    </div>
+  );
+}

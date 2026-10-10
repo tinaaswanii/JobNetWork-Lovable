@@ -1,1 +1,68 @@
-Ly8gU2hhcmVkLCBicm93c2VyLXNhZmUgdHlwZXMgZm9yIHRoZSBwdWJsaWMgam9icyBmZWVkIChwb3J0ZWQgZnJvbSBKb2JOZXRXb3JrKS4KCmV4cG9ydCBpbnRlcmZhY2UgUHVibGljSm9iIHsKICBpZDogc3RyaW5nOwogIHNsdWc6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIGNvbXBhbnk6IHN0cmluZzsKICBsb2dvOiBzdHJpbmcgfCBudWxsOwogIGRlc2NyaXB0aW9uOiBzdHJpbmc7IC8vIEhUTUwKICBsb2NhdGlvbjogc3RyaW5nIHwgbnVsbDsKICBjaXR5OiBzdHJpbmcgfCBudWxsOwogIHN0YXRlOiBzdHJpbmcgfCBudWxsOwogIGNvdW50cnk6IHN0cmluZyB8IG51bGw7CiAgam9iX3R5cGU6IHN0cmluZyB8IG51bGw7CiAgc2FsYXJ5X21pbjogbnVtYmVyIHwgbnVsbDsKICBzYWxhcnlfbWF4OiBudW1iZXIgfCBudWxsOwogIHNhbGFyeV9jdXJyOiBzdHJpbmcgfCBudWxsOwogIGV4cF9taW46IG51bWJlciB8IG51bGw7CiAgZXhwX21heDogbnVtYmVyIHwgbnVsbDsKICBleHBfdW5pdDogc3RyaW5nIHwgbnVsbDsKICBza2lsbHM6IHN0cmluZ1tdOwogIHBvc3RlZF9kYXRlOiBzdHJpbmc7CiAgdXJsOiBzdHJpbmc7IC8vIGNyZWF0b3ItYXR0cmlidXRlZCBhcnRoYS5saW5rIGxpbmsg4oCUIGFsd2F5cyB1c2UgdGhpcywgbmV2ZXIgcmVidWlsZCBpdAp9CgpleHBvcnQgaW50ZXJmYWNlIEpvYnNQYWdlUmVzdWx0IHsKICBpdGVtczogUHVibGljSm9iW107CiAgdG90YWw6IG51bWJlcjsKICBsaW1pdDogbnVtYmVyOwogIG9mZnNldDogbnVtYmVyOwogIGhhc19tb3JlOiBib29sZWFuOwp9CgpleHBvcnQgaW50ZXJmYWNlIEpvYnNRdWVyeSB7CiAgbGltaXQ/OiBudW1iZXI7CiAgb2Zmc2V0PzogbnVtYmVyOwogIHE/OiBzdHJpbmc7CiAgbG9jYXRpb24/OiBzdHJpbmc7CiAgc3RhdGU/OiBzdHJpbmc7CiAgY2l0eT86IHN0cmluZzsKICBqb2JfdHlwZT86IHN0cmluZzsKICB3b3JrX21vZGU/OiBzdHJpbmc7CiAgZXhwX2xldmVsPzogc3RyaW5nOwogIGNvbXBhbnk/OiBzdHJpbmc7CiAgc2FsYXJ5X21pbj86IG51bWJlcjsKICBzYWxhcnlfbWF4PzogbnVtYmVyOwogIHNvcnRfYnk/OiAibW9zdF9yZWxldmFudCIgfCAibmV3ZXN0IiB8ICJoaWdoX2NwYSI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRmlsdGVyT3B0aW9uIHsKICB2YWx1ZTogc3RyaW5nOwogIGNvdW50OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQXJ0aGFGaWx0ZXJzIHsKICBjYXRlZ29yaWVzOiBGaWx0ZXJPcHRpb25bXTsKICBqb2JfdHlwZXM6IEZpbHRlck9wdGlvbltdOwogIGV4cGVyaWVuY2VfbGV2ZWxzOiBGaWx0ZXJPcHRpb25bXTsKICBlZHVjYXRpb25fbGV2ZWxzOiBGaWx0ZXJPcHRpb25bXTsKICB3b3JrX21vZGVzOiBGaWx0ZXJPcHRpb25bXTsKICBjb3VudHJpZXM6IEZpbHRlck9wdGlvbltdOwogIHN0YXRlczogRmlsdGVyT3B0aW9uW107CiAgY2l0aWVzOiBGaWx0ZXJPcHRpb25bXTsKICBjb21wYW5pZXM6IEZpbHRlck9wdGlvbltdOwogIGluZHVzdHJpZXM6IEZpbHRlck9wdGlvbltdOwogIHNhbGFyeV9yYW5nZXM6IEZpbHRlck9wdGlvbltdOwogIHRvdGFsX2pvYnM6IG51bWJlcjsKfQo=
+// Shared, browser-safe types for the public jobs feed (ported from JobNetWork).
+
+export interface PublicJob {
+  id: string;
+  slug: string;
+  title: string;
+  company: string;
+  logo: string | null;
+  description: string; // HTML
+  location: string | null;
+  city: string | null;
+  state: string | null;
+  country: string | null;
+  job_type: string | null;
+  salary_min: number | null;
+  salary_max: number | null;
+  salary_curr: string | null;
+  exp_min: number | null;
+  exp_max: number | null;
+  exp_unit: string | null;
+  skills: string[];
+  posted_date: string;
+  url: string; // creator-attributed artha.link link — always use this, never rebuild it
+}
+
+export interface JobsPageResult {
+  items: PublicJob[];
+  total: number;
+  limit: number;
+  offset: number;
+  has_more: boolean;
+}
+
+export interface JobsQuery {
+  limit?: number;
+  offset?: number;
+  q?: string;
+  location?: string;
+  state?: string;
+  city?: string;
+  job_type?: string;
+  work_mode?: string;
+  exp_level?: string;
+  company?: string;
+  salary_min?: number;
+  salary_max?: number;
+  sort_by?: "most_relevant" | "newest" | "high_cpa";
+}
+
+export interface FilterOption {
+  value: string;
+  count: number;
+}
+
+export interface ArthaFilters {
+  categories: FilterOption[];
+  job_types: FilterOption[];
+  experience_levels: FilterOption[];
+  education_levels: FilterOption[];
+  work_modes: FilterOption[];
+  countries: FilterOption[];
+  states: FilterOption[];
+  cities: FilterOption[];
+  companies: FilterOption[];
+  industries: FilterOption[];
+  salary_ranges: FilterOption[];
+  total_jobs: number;
+}

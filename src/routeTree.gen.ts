@@ -1,1 +1,172 @@
-LyogZXNsaW50LWRpc2FibGUgKi8KCi8vIEB0cy1ub2NoZWNrCgovLyBub2luc3BlY3Rpb24gSlNVbnVzZWRHbG9iYWxTeW1ib2xzCgovLyBUaGlzIGZpbGUgd2FzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGJ5IFRhblN0YWNrIFJvdXRlci4KLy8gWW91IHNob3VsZCBOT1QgbWFrZSBhbnkgY2hhbmdlcyBpbiB0aGlzIGZpbGUgYXMgaXQgd2lsbCBiZSBvdmVyd3JpdHRlbi4KLy8gQWRkaXRpb25hbGx5LCB5b3Ugc2hvdWxkIGFsc28gZXhjbHVkZSB0aGlzIGZpbGUgZnJvbSB5b3VyIGxpbnRlciBhbmQvb3IgZm9ybWF0dGVyIHRvIHByZXZlbnQgaXQgZnJvbSBiZWluZyBjaGVja2VkIG9yIG1vZGlmaWVkLgoKaW1wb3J0IHsgUm91dGUgYXMgcm9vdFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX19yb290JwppbXBvcnQgeyBSb3V0ZSBhcyBJbmRleFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvaW5kZXgnCmltcG9ydCB7IFJvdXRlIGFzIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX2F1dGhlbnRpY2F0ZWQvcm91dGUnCmltcG9ydCB7IFJvdXRlIGFzIEF1dGhSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL2F1dGgnCmltcG9ydCB7IFJvdXRlIGFzIEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL19hdXRoZW50aWNhdGVkL2Rhc2hib2FyZCcKaW1wb3J0IHsgUm91dGUgYXMgSm9ic0luZGV4Um91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9qb2JzL2luZGV4JwppbXBvcnQgeyBSb3V0ZSBhcyBKb2JzU2x1Z1JvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvam9icy8kc2x1ZycKCmNvbnN0IEluZGV4Um91dGUgPSBJbmRleFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvJywKICBwYXRoOiAnLycsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlID0gQXV0aGVudGljYXRlZFJvdXRlUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9fYXV0aGVudGljYXRlZCcsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEF1dGhSb3V0ZSA9IEF1dGhSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2F1dGgnLAogIHBhdGg6ICcvYXV0aCcsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZSA9IEF1dGhlbnRpY2F0ZWREYXNoYm9hcmRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2Rhc2hib2FyZCcsCiAgcGF0aDogJy9kYXNoYm9hcmQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZSwKfSBhcyBhbnkpCmNvbnN0IEpvYnNJbmRleFJvdXRlID0gSm9ic0luZGV4Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9qb2JzLycsCiAgcGF0aDogJy9qb2JzLycsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEpvYnNTbHVnUm91dGUgPSBKb2JzU2x1Z1JvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvam9icy8kc2x1ZycsCiAgcGF0aDogJy9qb2JzLyRzbHVnJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKCmV4cG9ydCBpbnRlcmZhY2UgRmlsZVJvdXRlc0J5RnVsbFBhdGggewogICcvJzogdHlwZW9mIEluZGV4Um91dGUKICAnL2F1dGgnOiB0eXBlb2YgQXV0aFJvdXRlCiAgJy9kYXNoYm9hcmQnOiB0eXBlb2YgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlCiAgJy9qb2JzLyRzbHVnJzogdHlwZW9mIEpvYnNTbHVnUm91dGUKICAnL2pvYnMvJzogdHlwZW9mIEpvYnNJbmRleFJvdXRlCn0KZXhwb3J0IGludGVyZmFjZSBGaWxlUm91dGVzQnlUbyB7CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvYXV0aCc6IHR5cGVvZiBBdXRoUm91dGUKICAnL2Rhc2hib2FyZCc6IHR5cGVvZiBBdXRoZW50aWNhdGVkRGFzaGJvYXJkUm91dGUKICAnL2pvYnMvJHNsdWcnOiB0eXBlb2YgSm9ic1NsdWdSb3V0ZQogICcvam9icyc6IHR5cGVvZiBKb2JzSW5kZXhSb3V0ZQp9CmV4cG9ydCBpbnRlcmZhY2UgRmlsZVJvdXRlc0J5SWQgewogIF9fcm9vdF9fOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvX2F1dGhlbnRpY2F0ZWQnOiB0eXBlb2YgQXV0aGVudGljYXRlZFJvdXRlUm91dGVXaXRoQ2hpbGRyZW4KICAnL2F1dGgnOiB0eXBlb2YgQXV0aFJvdXRlCiAgJy9fYXV0aGVudGljYXRlZC9kYXNoYm9hcmQnOiB0eXBlb2YgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlCiAgJy9qb2JzLyRzbHVnJzogdHlwZW9mIEpvYnNTbHVnUm91dGUKICAnL2pvYnMvJzogdHlwZW9mIEpvYnNJbmRleFJvdXRlCn0KZXhwb3J0IGludGVyZmFjZSBGaWxlUm91dGVUeXBlcyB7CiAgZmlsZVJvdXRlc0J5RnVsbFBhdGg6IEZpbGVSb3V0ZXNCeUZ1bGxQYXRoCiAgZnVsbFBhdGhzOiAnLycgfCAnL2F1dGgnIHwgJy9kYXNoYm9hcmQnIHwgJy9qb2JzLyRzbHVnJyB8ICcvam9icy8nCiAgZmlsZVJvdXRlc0J5VG86IEZpbGVSb3V0ZXNCeVRvCiAgdG86ICcvJyB8ICcvYXV0aCcgfCAnL2Rhc2hib2FyZCcgfCAnL2pvYnMvJHNsdWcnIHwgJy9qb2JzJwogIGlkOgogICAgfCAnX19yb290X18nCiAgICB8ICcvJwogICAgfCAnL19hdXRoZW50aWNhdGVkJwogICAgfCAnL2F1dGgnCiAgICB8ICcvX2F1dGhlbnRpY2F0ZWQvZGFzaGJvYXJkJwogICAgfCAnL2pvYnMvJHNsdWcnCiAgICB8ICcvam9icy8nCiAgZmlsZVJvdXRlc0J5SWQ6IEZpbGVSb3V0ZXNCeUlkCn0KZXhwb3J0IGludGVyZmFjZSBSb290Um91dGVDaGlsZHJlbiB7CiAgSW5kZXhSb3V0ZTogdHlwZW9mIEluZGV4Um91dGUKICBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlV2l0aENoaWxkcmVuCiAgQXV0aFJvdXRlOiB0eXBlb2YgQXV0aFJvdXRlCiAgSm9ic1NsdWdSb3V0ZTogdHlwZW9mIEpvYnNTbHVnUm91dGUKICBKb2JzSW5kZXhSb3V0ZTogdHlwZW9mIEpvYnNJbmRleFJvdXRlCn0KCmRlY2xhcmUgbW9kdWxlICdAdGFuc3RhY2svcmVhY3Qtcm91dGVyJyB7CiAgaW50ZXJmYWNlIEZpbGVSb3V0ZXNCeVBhdGggewogICAgJy8nOiB7CiAgICAgIGlkOiAnLycKICAgICAgcGF0aDogJy8nCiAgICAgIGZ1bGxQYXRoOiAnLycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBJbmRleFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL19hdXRoZW50aWNhdGVkJzogewogICAgICBpZDogJy9fYXV0aGVudGljYXRlZCcKICAgICAgcGF0aDogJycKICAgICAgZnVsbFBhdGg6ICcvJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL2F1dGgnOiB7CiAgICAgIGlkOiAnL2F1dGgnCiAgICAgIHBhdGg6ICcvYXV0aCcKICAgICAgZnVsbFBhdGg6ICcvYXV0aCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBBdXRoUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvX2F1dGhlbnRpY2F0ZWQvZGFzaGJvYXJkJzogewogICAgICBpZDogJy9fYXV0aGVudGljYXRlZC9kYXNoYm9hcmQnCiAgICAgIHBhdGg6ICcvZGFzaGJvYXJkJwogICAgICBmdWxsUGF0aDogJy9kYXNoYm9hcmQnCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2YgQXV0aGVudGljYXRlZFJvdXRlUm91dGUKICAgIH0KICAgICcvam9icy8nOiB7CiAgICAgIGlkOiAnL2pvYnMvJwogICAgICBwYXRoOiAnL2pvYnMnCiAgICAgIGZ1bGxQYXRoOiAnL2pvYnMvJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEpvYnNJbmRleFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL2pvYnMvJHNsdWcnOiB7CiAgICAgIGlkOiAnL2pvYnMvJHNsdWcnCiAgICAgIHBhdGg6ICcvam9icy8kc2x1ZycKICAgICAgZnVsbFBhdGg6ICcvam9icy8kc2x1ZycKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBKb2JzU2x1Z1JvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgfQp9CgppbnRlcmZhY2UgQXV0aGVudGljYXRlZFJvdXRlUm91dGVDaGlsZHJlbiB7CiAgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlOiB0eXBlb2YgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlCn0KCmNvbnN0IEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlQ2hpbGRyZW46IEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlQ2hpbGRyZW4gPSB7CiAgQXV0aGVudGljYXRlZERhc2hib2FyZFJvdXRlOiBBdXRoZW50aWNhdGVkRGFzaGJvYXJkUm91dGUsCn0KCmNvbnN0IEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlV2l0aENoaWxkcmVuID0KICBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZS5fYWRkRmlsZUNoaWxkcmVuKEF1dGhlbnRpY2F0ZWRSb3V0ZVJvdXRlQ2hpbGRyZW4pCgpjb25zdCByb290Um91dGVDaGlsZHJlbjogUm9vdFJvdXRlQ2hpbGRyZW4gPSB7CiAgSW5kZXhSb3V0ZTogSW5kZXhSb3V0ZSwKICBBdXRoZW50aWNhdGVkUm91dGVSb3V0ZTogQXV0aGVudGljYXRlZFJvdXRlUm91dGVXaXRoQ2hpbGRyZW4sCiAgQXV0aFJvdXRlOiBBdXRoUm91dGUsCiAgSm9ic1NsdWdSb3V0ZTogSm9ic1NsdWdSb3V0ZSwKICBKb2JzSW5kZXhSb3V0ZTogSm9ic0luZGV4Um91dGUsCn0KZXhwb3J0IGNvbnN0IHJvdXRlVHJlZSA9IHJvb3RSb3V0ZUltcG9ydAogIC5fYWRkRmlsZUNoaWxkcmVuKHJvb3RSb3V0ZUNoaWxkcmVuKQogIC5fYWRkRmlsZVR5cGVzPEZpbGVSb3V0ZVR5cGVzPigpCgppbXBvcnQgdHlwZSB7IGdldFJvdXRlciB9IGZyb20gJy4vcm91dGVyLnRzeCcKaW1wb3J0IHR5cGUgeyBzdGFydEluc3RhbmNlIH0gZnJvbSAnLi9zdGFydC50cycKZGVjbGFyZSBtb2R1bGUgJ0B0YW5zdGFjay9yZWFjdC1zdGFydCcgewogIGludGVyZmFjZSBSZWdpc3RlciB7CiAgICBzc3I6IHRydWUKICAgIHJvdXRlcjogQXdhaXRlZDxSZXR1cm5UeXBlPHR5cGVvZiBnZXRSb3V0ZXI+PgogICAgY29uZmlnOiBBd2FpdGVkPFJldHVyblR5cGU8dHlwZW9mIHN0YXJ0SW5zdGFuY2UuZ2V0T3B0aW9ucz4+CiAgfQp9Cg==
+/* eslint-disable */
+
+// @ts-nocheck
+
+// noinspection JSUnusedGlobalSymbols
+
+// This file was automatically generated by TanStack Router.
+// You should NOT make any changes in this file as it will be overwritten.
+// Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
+
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as AuthenticatedRouteRouteImport } from './routes/_authenticated/route'
+import { Route as AuthRouteImport } from './routes/auth'
+import { Route as AuthenticatedDashboardRouteImport } from './routes/_authenticated/dashboard'
+import { Route as JobsIndexRouteImport } from './routes/jobs/index'
+import { Route as JobsSlugRouteImport } from './routes/jobs/$slug'
+
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedRouteRoute = AuthenticatedRouteRouteImport.update({
+  id: '/_authenticated',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthRoute = AuthRouteImport.update({
+  id: '/auth',
+  path: '/auth',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthenticatedDashboardRoute = AuthenticatedDashboardRouteImport.update({
+  id: '/dashboard',
+  path: '/dashboard',
+  getParentRoute: () => AuthenticatedRouteRoute,
+} as any)
+const JobsIndexRoute = JobsIndexRouteImport.update({
+  id: '/jobs/',
+  path: '/jobs/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const JobsSlugRoute = JobsSlugRouteImport.update({
+  id: '/jobs/$slug',
+  path: '/jobs/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+
+export interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
+  '/dashboard': typeof AuthenticatedDashboardRoute
+  '/jobs/$slug': typeof JobsSlugRoute
+  '/jobs/': typeof JobsIndexRoute
+}
+export interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/auth': typeof AuthRoute
+  '/dashboard': typeof AuthenticatedDashboardRoute
+  '/jobs/$slug': typeof JobsSlugRoute
+  '/jobs': typeof JobsIndexRoute
+}
+export interface FileRoutesById {
+  __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
+  '/_authenticated': typeof AuthenticatedRouteRouteWithChildren
+  '/auth': typeof AuthRoute
+  '/_authenticated/dashboard': typeof AuthenticatedDashboardRoute
+  '/jobs/$slug': typeof JobsSlugRoute
+  '/jobs/': typeof JobsIndexRoute
+}
+export interface FileRouteTypes {
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths: '/' | '/auth' | '/dashboard' | '/jobs/$slug' | '/jobs/'
+  fileRoutesByTo: FileRoutesByTo
+  to: '/' | '/auth' | '/dashboard' | '/jobs/$slug' | '/jobs'
+  id:
+    | '__root__'
+    | '/'
+    | '/_authenticated'
+    | '/auth'
+    | '/_authenticated/dashboard'
+    | '/jobs/$slug'
+    | '/jobs/'
+  fileRoutesById: FileRoutesById
+}
+export interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
+  AuthenticatedRouteRoute: typeof AuthenticatedRouteRouteWithChildren
+  AuthRoute: typeof AuthRoute
+  JobsSlugRoute: typeof JobsSlugRoute
+  JobsIndexRoute: typeof JobsIndexRoute
+}
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated': {
+      id: '/_authenticated'
+      path: ''
+      fullPath: '/'
+      preLoaderRoute: typeof AuthenticatedRouteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth': {
+      id: '/auth'
+      path: '/auth'
+      fullPath: '/auth'
+      preLoaderRoute: typeof AuthRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/_authenticated/dashboard': {
+      id: '/_authenticated/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof AuthenticatedDashboardRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
+    '/jobs/': {
+      id: '/jobs/'
+      path: '/jobs'
+      fullPath: '/jobs/'
+      preLoaderRoute: typeof JobsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/jobs/$slug': {
+      id: '/jobs/$slug'
+      path: '/jobs/$slug'
+      fullPath: '/jobs/$slug'
+      preLoaderRoute: typeof JobsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
+}
+
+interface AuthenticatedRouteRouteChildren {
+  AuthenticatedDashboardRoute: typeof AuthenticatedDashboardRoute
+}
+
+const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
+  AuthenticatedDashboardRoute: AuthenticatedDashboardRoute,
+}
+
+const AuthenticatedRouteRouteWithChildren =
+  AuthenticatedRouteRoute._addFileChildren(AuthenticatedRouteRouteChildren)
+
+const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
+  AuthenticatedRouteRoute: AuthenticatedRouteRouteWithChildren,
+  AuthRoute: AuthRoute,
+  JobsSlugRoute: JobsSlugRoute,
+  JobsIndexRoute: JobsIndexRoute,
+}
+export const routeTree = rootRouteImport
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

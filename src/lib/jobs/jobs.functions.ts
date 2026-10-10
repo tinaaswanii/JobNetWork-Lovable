@@ -1,1 +1,271 @@
-aW1wb3J0IHsgY3JlYXRlU2VydmVyRm4gfSBmcm9tICJAdGFuc3RhY2svcmVhY3Qtc3RhcnQiOwppbXBvcnQgdHlwZSB7CiAgQXJ0aGFGaWx0ZXJzLAogIEpvYnNQYWdlUmVzdWx0LAogIEpvYnNRdWVyeSwKICBQdWJsaWNKb2IsCn0gZnJvbSAiQC9saWIvam9icy90eXBlcyI7CgovLyBTZXJ2ZXItc2lkZSBjbGllbnQgZm9yIHRoZSBhcnRoYS5saW5rIFB1YmxpYyBKb2JzIEFQSS4KLy8gVGhlIEFQSSBrZXkgaXMgcmVhZCBpbnNpZGUgdGhlIGhhbmRsZXJzIOKAlCBuZXZlciBhdCBtb2R1bGUgc2NvcGUgYW5kCi8vIG5ldmVyIGV4cG9zZWQgdG8gdGhlIGJyb3dzZXIuCgovLyBEZWZhdWx0IG1hdGNoZXMgdGhlIG9yaWdpbmFsIHJlcG8gKC5lbnYuZXhhbXBsZSkuIE92ZXJyaWRlIHdpdGggdGhlCi8vIEFSVEhBX0JBU0VfVVJMIHNlY3JldCBpZiBhcnRoYS5saW5rIGdpdmVzIHlvdSBhIGRpZmZlcmVudCBBUEkgYWRkcmVzcy4KY29uc3QgQkFTRV9VUkwgPQogIHByb2Nlc3MuZW52WyJBUlRIQV9CQVNFX1VSTCJdID8/ICJodHRwczovL2FwaS11c2EuYXJ0aGEubGluay9hcGkvdjEiOwoKY2xhc3MgQXJ0aGFBcGlFcnJvciBleHRlbmRzIEVycm9yIHsKICBjb25zdHJ1Y3RvcigKICAgIHB1YmxpYyBjb2RlOiBzdHJpbmcsCiAgICBtZXNzYWdlOiBzdHJpbmcsCiAgICBwdWJsaWMgc3RhdHVzOiBudW1iZXIsCiAgKSB7CiAgICBzdXBlcihtZXNzYWdlKTsKICAgIHRoaXMubmFtZSA9ICJBcnRoYUFwaUVycm9yIjsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGFydGhhRmV0Y2g8VD4oCiAgcGF0aDogc3RyaW5nLAogIHNlYXJjaFBhcmFtcz86IFVSTFNlYXJjaFBhcmFtcywKKTogUHJvbWlzZTxUPiB7CiAgY29uc3Qga2V5ID0gcHJvY2Vzcy5lbnZbIkFSVEhBX0FQSV9LRVkiXTsKICBpZiAoIWtleSkgewogICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAiVGhlIGpvYiBmZWVkIGlzbid0IGNvbm5lY3RlZCB5ZXQg4oCUIHRoZSBzaXRlIG93bmVyIG5lZWRzIHRvIGFkZCB0aGUgam9iIEFQSSBrZXkuIiwKICAgICk7CiAgfQoKICBjb25zdCB1cmwgPSBgJHtCQVNFX1VSTH0ke3BhdGh9JHtzZWFyY2hQYXJhbXMgPyBgPyR7c2VhcmNoUGFyYW1zLnRvU3RyaW5nKCl9YCA6ICIifWA7CiAgY29uc3QgZG9GZXRjaCA9ICgpID0+CiAgICBmZXRjaCh1cmwsIHsgaGVhZGVyczogeyAiWC1BUEktS2V5Ijoga2V5IH0gfSk7CgogIGxldCByZXMgPSBhd2FpdCBkb0ZldGNoKCk7CgogIGlmIChyZXMuc3RhdHVzID09PSA0MjkpIHsKICAgIGNvbnN0IHJldHJ5QWZ0ZXIgPSBwYXJzZUludChyZXMuaGVhZGVycy5nZXQoIlJldHJ5LUFmdGVyIikgPz8gIjIiLCAxMCk7CiAgICBhd2FpdCBuZXcgUHJvbWlzZSgocikgPT4KICAgICAgc2V0VGltZW91dChyLCBNYXRoLm1heChOdW1iZXIuaXNGaW5pdGUocmV0cnlBZnRlcikgPyByZXRyeUFmdGVyIDogMiwgMSkgKiAxMDAwKSwKICAgICk7CiAgICByZXMgPSBhd2FpdCBkb0ZldGNoKCk7IC8vIHNpbmdsZSByZXRyeQogIH0KCiAgY29uc3QgYm9keSA9IChhd2FpdCByZXMuanNvbigpLmNhdGNoKCgpID0+IG51bGwpKSBhcyB7CiAgICBzdWNjZXNzPzogYm9vbGVhbjsKICAgIGRhdGE/OiBUOwogICAgZXJyb3I/OiB7IGNvZGU/OiBzdHJpbmc7IG1lc3NhZ2U/OiBzdHJpbmcgfTsKICB9IHwgbnVsbDsKCiAgaWYgKCFyZXMub2sgfHwgIWJvZHk/LnN1Y2Nlc3MpIHsKICAgIHRocm93IG5ldyBBcnRoYUFwaUVycm9yKAogICAgICBib2R5Py5lcnJvcj8uY29kZSA/PyAiVU5LTk9XTl9FUlJPUiIsCiAgICAgIGJvZHk/LmVycm9yPy5tZXNzYWdlID8/IGBKb2IgZmVlZCByZXF1ZXN0IGZhaWxlZCAoJHtyZXMuc3RhdHVzfSlgLAogICAgICByZXMuc3RhdHVzLAogICAgKTsKICB9CgogIHJldHVybiBib2R5LmRhdGEgYXMgVDsKfQoKZnVuY3Rpb24gdG9QYXJhbXMocXVlcnk6IEpvYnNRdWVyeSk6IFVSTFNlYXJjaFBhcmFtcyB7CiAgY29uc3QgcGFyYW1zID0gbmV3IFVSTFNlYXJjaFBhcmFtcygpOwogIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKHF1ZXJ5KSkgewogICAgaWYgKHZhbHVlICE9PSB1bmRlZmluZWQgJiYgdmFsdWUgIT09IG51bGwgJiYgdmFsdWUgIT09ICIiKSB7CiAgICAgIHBhcmFtcy5zZXQoa2V5LCBTdHJpbmcodmFsdWUpKTsKICAgIH0KICB9CiAgcmV0dXJuIHBhcmFtczsKfQoKZXhwb3J0IGNvbnN0IGdldEpvYnMgPSBjcmVhdGVTZXJ2ZXJGbih7IG1ldGhvZDogIkdFVCIgfSkKICAuaW5wdXRWYWxpZGF0b3IoKHF1ZXJ5OiBKb2JzUXVlcnkpID0+IHF1ZXJ5ID8/IHt9KQogIC5oYW5kbGVyKGFzeW5jICh7IGRhdGE6IHF1ZXJ5IH0pOiBQcm9taXNlPEpvYnNQYWdlUmVzdWx0PiA9PiB7CiAgICBjb25zdCBpc1NlYXJjaGluZyA9IEJvb2xlYW4ocXVlcnkucSAmJiBxdWVyeS5xLnRyaW0oKSk7CgogICAgLy8gQXJ0aGEncyBzZWFyY2ggaXMgZnV6enkg4oCUIGFzayBmb3IgYSBiaWdnZXIgcG9vbCB3aGVuIHNlYXJjaGluZywgdGhlbgogICAgLy8ga2VlcCBvbmx5IGdlbnVpbmUgdGl0bGUvY29tcGFueSBtYXRjaGVzIChwb3J0ZWQgZnJvbSBsaWIvam9icy50cykuCiAgICBjb25zdCBhcnRoYVF1ZXJ5OiBKb2JzUXVlcnkgPSBpc1NlYXJjaGluZwogICAgICA/IHsgLi4ucXVlcnksIGxpbWl0OiBNYXRoLm1heChxdWVyeS5saW1pdCA/PyAxMCwgMTAwKSB9CiAgICAgIDogcXVlcnk7CgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYXJ0aGFGZXRjaDxKb2JzUGFnZVJlc3VsdD4oCiAgICAgICIvam9icyIsCiAgICAgIHRvUGFyYW1zKGFydGhhUXVlcnkpLAogICAgKTsKCiAgICBsZXQgaXRlbXMgPSByZXN1bHQuaXRlbXM7CiAgICBpZiAoaXNTZWFyY2hpbmcpIHsKICAgICAgY29uc3QgdGVybXMgPSBxdWVyeQogICAgICAgIC5xIS50cmltKCkKICAgICAgICAudG9Mb3dlckNhc2UoKQogICAgICAgIC5zcGxpdCgvXHMrLykKICAgICAgICAuZmlsdGVyKEJvb2xlYW4pOwogICAgICBpdGVtcyA9IGl0ZW1zLmZpbHRlcigoam9iKSA9PiB7CiAgICAgICAgY29uc3QgaGF5c3RhY2sgPSBgJHtqb2IudGl0bGV9ICR7am9iLmNvbXBhbnl9YC50b0xvd2VyQ2FzZSgpOwogICAgICAgIHJldHVybiB0ZXJtcy5ldmVyeSgodGVybSkgPT4gaGF5c3RhY2suaW5jbHVkZXModGVybSkpOwogICAgICB9KTsKICAgIH0KCiAgICByZXR1cm4geyAuLi5yZXN1bHQsIGl0ZW1zIH07CiAgfSk7CgpleHBvcnQgY29uc3QgZ2V0Sm9iRmlsdGVycyA9IGNyZWF0ZVNlcnZlckZuKHsgbWV0aG9kOiAiR0VUIiB9KS5oYW5kbGVyKAogIGFzeW5jICgpOiBQcm9taXNlPEFydGhhRmlsdGVycz4gPT4gewogICAgcmV0dXJuIGFydGhhRmV0Y2g8QXJ0aGFGaWx0ZXJzPigiL2pvYnMvZmlsdGVycyIpOwogIH0sCik7CgpleHBvcnQgY29uc3QgZ2V0Sm9iQnlTbHVnID0gY3JlYXRlU2VydmVyRm4oeyBtZXRob2Q6ICJHRVQiIH0pCiAgLmlucHV0VmFsaWRhdG9yKChzbHVnOiBzdHJpbmcpID0+IHsKICAgIGlmICghc2x1ZyB8fCB0eXBlb2Ygc2x1ZyAhPT0gInN0cmluZyIpIHRocm93IG5ldyBFcnJvcigiTWlzc2luZyBqb2Igc2x1ZyIpOwogICAgcmV0dXJuIHNsdWc7CiAgfSkKICAuaGFuZGxlcihhc3luYyAoeyBkYXRhOiBzbHVnIH0pOiBQcm9taXNlPFB1YmxpY0pvYiB8IG51bGw+ID0+IHsKICAgIHRyeSB7CiAgICAgIHJldHVybiBhd2FpdCBhcnRoYUZldGNoPFB1YmxpY0pvYj4oYC9qb2JzLyR7ZW5jb2RlVVJJQ29tcG9uZW50KHNsdWcpfWApOwogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiBudWxsOwogICAgfQogIH0pOwo=
+import { createServerFn } from "@tanstack/react-start";
+import type {
+  ArthaFilters,
+  JobsPageResult,
+  JobsQuery,
+  PublicJob,
+} from "@/lib/jobs/types";
+
+// Server-side client for the artha.link Public Jobs API.
+// The API key is read inside the handlers — never at module scope and
+// never exposed to the browser.
+
+// Default matches the original repo (.env.example). Override with the
+// ARTHA_BASE_URL secret if artha.link gives you a different API address.
+const BASE_URL =
+  process.env["ARTHA_BASE_URL"] ?? "https://api-usa.artha.link/api/v1";
+
+class ArthaApiError extends Error {
+  constructor(
+    public code: string,
+    message: string,
+    public status: number,
+  ) {
+    super(message);
+    this.name = "ArthaApiError";
+  }
+}
+
+async function arthaFetch<T>(
+  path: string,
+  searchParams?: URLSearchParams,
+): Promise<T> {
+  const key = process.env["ARTHA_API_KEY"];
+  if (!key) {
+    throw new Error(
+      "The job feed isn't connected yet — the site owner needs to add the job API key.",
+    );
+  }
+
+  const url = `${BASE_URL}${path}${searchParams ? `?${searchParams.toString()}` : ""}`;
+  const doFetch = () =>
+    fetch(url, { headers: { "X-API-Key": key } });
+
+  let res = await doFetch();
+
+  if (res.status === 429) {
+    const retryAfter = parseInt(res.headers.get("Retry-After") ?? "2", 10);
+    await new Promise((r) =>
+      setTimeout(r, Math.max(Number.isFinite(retryAfter) ? retryAfter : 2, 1) * 1000),
+    );
+    res = await doFetch(); // single retry
+  }
+
+  const body = (await res.json().catch(() => null)) as {
+    success?: boolean;
+    data?: T;
+    error?: { code?: string; message?: string };
+  } | null;
+
+  if (!res.ok || !body?.success) {
+    throw new ArthaApiError(
+      body?.error?.code ?? "UNKNOWN_ERROR",
+      body?.error?.message ?? `Job feed request failed (${res.status})`,
+      res.status,
+    );
+  }
+
+  return body.data as T;
+}
+
+function toParams(query: JobsQuery): URLSearchParams {
+  const params = new URLSearchParams();
+  for (const [key, value] of Object.entries(query)) {
+    if (value !== undefined && value !== null && value !== "") {
+      params.set(key, String(value));
+    }
+  }
+  return params;
+}
+
+type CachedJobInsert = {
+  slug: string;
+  title: string;
+  company: string;
+  logo: string | null;
+  description: string;
+  location: string | null;
+  city: string | null;
+  state: string | null;
+  country: string | null;
+  job_type: string | null;
+  salary_min: number | null;
+  salary_max: number | null;
+  salary_curr: string | null;
+  exp_min: number | null;
+  exp_max: number | null;
+  exp_unit: string | null;
+  skills: string[];
+  apply_url: string;
+  posted_date: string | null;
+  last_seen_at: string;
+};
+
+// Opportunistically upserts job-feed listings into cached_jobs, keyed by
+// slug. Fire-and-forget: never let a caching failure break the listing
+// response. Needed because the feed has no single-job endpoint — detail
+// pages are served from this cache.
+async function cacheJobsInBackground(jobs: PublicJob[]) {
+  const rows: CachedJobInsert[] = jobs
+    .filter((j) => j.slug && j.url)
+    .map((j) => ({
+      slug: j.slug,
+      title: j.title,
+      company: j.company,
+      logo: j.logo ?? null,
+      description: j.description ?? "",
+      location: j.location ?? null,
+      city: j.city ?? null,
+      state: j.state ?? null,
+      country: j.country ?? null,
+      job_type: j.job_type ?? null,
+      salary_min: j.salary_min ?? null,
+      salary_max: j.salary_max ?? null,
+      salary_curr: j.salary_curr ?? null,
+      exp_min: j.exp_min ?? null,
+      exp_max: j.exp_max ?? null,
+      exp_unit: j.exp_unit ?? null,
+      skills: j.skills ?? [],
+      apply_url: j.url,
+      posted_date: j.posted_date ?? null,
+      last_seen_at: new Date().toISOString(),
+    }));
+  if (rows.length === 0) return;
+
+  try {
+    const { supabaseAdmin } = await import(
+      "@/integrations/supabase/client.server"
+    );
+    const { error } = await supabaseAdmin
+      .from("cached_jobs")
+      .upsert(rows, { onConflict: "slug" });
+    if (error) console.error("[job-cache] upsert failed", error);
+  } catch (err) {
+    console.error("[job-cache] upsert threw", err);
+  }
+}
+
+function rowToPublicJob(row: {
+  slug: string;
+  title: string;
+  company: string;
+  logo: string | null;
+  description: string;
+  location: string | null;
+  city: string | null;
+  state: string | null;
+  country: string | null;
+  job_type: string | null;
+  salary_min: number | null;
+  salary_max: number | null;
+  salary_curr: string | null;
+  exp_min: number | null;
+  exp_max: number | null;
+  exp_unit: string | null;
+  skills: string[] | null;
+  apply_url: string;
+  posted_date: string | null;
+}): PublicJob {
+  return {
+    id: row.slug,
+    slug: row.slug,
+    title: row.title,
+    company: row.company,
+    logo: row.logo,
+    description: row.description,
+    location: row.location,
+    city: row.city,
+    state: row.state,
+    country: row.country,
+    job_type: row.job_type,
+    salary_min: row.salary_min,
+    salary_max: row.salary_max,
+    salary_curr: row.salary_curr,
+    exp_min: row.exp_min,
+    exp_max: row.exp_max,
+    exp_unit: row.exp_unit,
+    skills: row.skills ?? [],
+    posted_date: row.posted_date ?? new Date().toISOString(),
+    url: row.apply_url,
+  };
+}
+
+export const getJobs = createServerFn({ method: "GET" })
+  .inputValidator((query: JobsQuery) => query ?? {})
+  .handler(async ({ data: query }): Promise<JobsPageResult> => {
+    const isSearching = Boolean(query.q && query.q.trim());
+
+    // Artha's search is fuzzy — ask for a bigger pool when searching, then
+    // keep only genuine title/company matches (ported from lib/jobs.ts).
+    const arthaQuery: JobsQuery = isSearching
+      ? { ...query, limit: Math.max(query.limit ?? 10, 100) }
+      : query;
+
+    const result = await arthaFetch<JobsPageResult>(
+      "/jobs",
+      toParams(arthaQuery),
+    );
+
+    // Cache the raw feed page (before search filtering) so detail pages can
+    // be served later from cached_jobs.
+    void cacheJobsInBackground(result.items ?? []);
+
+    let items = result.items;
+    if (isSearching) {
+      const terms = query
+        .q!.trim()
+        .toLowerCase()
+        .split(/\s+/)
+        .filter(Boolean);
+      items = items.filter((job) => {
+        const haystack = `${job.title} ${job.company}`.toLowerCase();
+        return terms.every((term) => haystack.includes(term));
+      });
+    }
+
+    return { ...result, items };
+  });
+
+export const getJobFilters = createServerFn({ method: "GET" }).handler(
+  async (): Promise<ArthaFilters> => {
+    return arthaFetch<ArthaFilters>("/jobs/filters");
+  },
+);
+
+export const getJobBySlug = createServerFn({ method: "GET" })
+  .inputValidator((slug: string) => {
+    if (!slug || typeof slug !== "string") throw new Error("Missing job slug");
+    return slug;
+  })
+  .handler(async ({ data: slug }): Promise<PublicJob | null> => {
+    // Primary path: serve from cached_jobs (the feed has no single-job
+    // endpoint; listings get cached on every /jobs request).
+    const { supabaseAdmin } = await import(
+      "@/integrations/supabase/client.server"
+    );
+    const { data: cached } = await supabaseAdmin
+      .from("cached_jobs")
+      .select("*")
+      .eq("slug", slug)
+      .maybeSingle();
+    if (cached) return rowToPublicJob(cached);
+
+    // Cache-miss fallback: Artha's slugs are built from the job title, so
+    // the slug words make a reasonable search query to relocate the job.
+    const guessedQuery = slug.replace(/-[a-f0-9]{6,}$/i, "").replace(/-/g, " ");
+    try {
+      const result = await arthaFetch<JobsPageResult>(
+        "/jobs",
+        toParams({ q: guessedQuery, limit: 25 }),
+      );
+      const match = (result.items ?? []).find((j) => j.slug === slug);
+      if (match) {
+        void cacheJobsInBackground([match]);
+        return match;
+      }
+    } catch (err) {
+      console.error("[job-cache] fallback search failed", err);
+    }
+
+    return null;
+  });

@@ -1,1 +1,77 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZU5hdmlnYXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IEJvb2ttYXJrLCBCb29rbWFya0NoZWNrIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgdG9hc3QgfSBmcm9tICJzb25uZXIiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB0eXBlIHsgUHVibGljSm9iIH0gZnJvbSAiQC9saWIvam9icy90eXBlcyI7CmltcG9ydCB7IGZvcm1hdFNhbGFyeSB9IGZyb20gIkAvY29tcG9uZW50cy9qb2JzL0pvYkNhcmQiOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gU2F2ZUpvYkJ1dHRvbih7IGpvYiB9OiB7IGpvYjogUHVibGljSm9iIH0pIHsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgW3N0YXRlLCBzZXRTdGF0ZV0gPSB1c2VTdGF0ZTwiaWRsZSIgfCAic2F2aW5nIiB8ICJzYXZlZCI+KCJpZGxlIik7CgogIGFzeW5jIGZ1bmN0aW9uIHNhdmUoKSB7CiAgICBzZXRTdGF0ZSgic2F2aW5nIik7CiAgICBjb25zdCB7CiAgICAgIGRhdGE6IHsgdXNlciB9LAogICAgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpOwoKICAgIGlmICghdXNlcikgewogICAgICBzZXRTdGF0ZSgiaWRsZSIpOwogICAgICB0b2FzdCgiU2lnbiBpbiB0byBzYXZlIGpvYnMgdG8geW91ciB0cmFja2VyIik7CiAgICAgIG5hdmlnYXRlKHsgdG86ICIvYXV0aCIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBjb25zdCBzYWxhcnkgPSBmb3JtYXRTYWxhcnkoam9iKTsKICAgIGNvbnN0IHsgZGF0YTogaW5zZXJ0ZWQsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAuZnJvbSgiYXBwbGljYXRpb25zIikKICAgICAgLmluc2VydCh7CiAgICAgICAgdXNlcl9pZDogdXNlci5pZCwKICAgICAgICBqb2JfdGl0bGU6IGpvYi50aXRsZSwKICAgICAgICBjb21wYW55OiBqb2IuY29tcGFueSwKICAgICAgICBqb2JfdXJsOiBqb2IudXJsLAogICAgICAgIGxvY2F0aW9uOiBqb2IubG9jYXRpb24sCiAgICAgICAgc2FsYXJ5LAogICAgICAgIHN0YXR1czogInNhdmVkIiwKICAgICAgICBub3RlczogYFNhdmVkIGZyb20gSm9iTmV0V29yayBsaXN0aW5nICgke2pvYi5zbHVnfSlgLAogICAgICB9KQogICAgICAuc2VsZWN0KCJpZCIpCiAgICAgIC5zaW5nbGUoKTsKCiAgICBpZiAoZXJyb3IpIHsKICAgICAgc2V0U3RhdGUoImlkbGUiKTsKICAgICAgdG9hc3QuZXJyb3IoIkNvdWxkbid0IHNhdmUgdGhpcyBqb2Ig4oCUIHRyeSBhZ2FpbiIpOwogICAgICByZXR1cm47CiAgICB9CgogICAgYXdhaXQgc3VwYWJhc2UuZnJvbSgiYXBwbGljYXRpb25fYWN0aXZpdHkiKS5pbnNlcnQoewogICAgICBhcHBsaWNhdGlvbl9pZDogaW5zZXJ0ZWQuaWQsCiAgICAgIHVzZXJfaWQ6IHVzZXIuaWQsCiAgICAgIGV2ZW50OiAiU2F2ZWQgZnJvbSBqb2IgbGlzdGluZyIsCiAgICB9KTsKCiAgICBzZXRTdGF0ZSgic2F2ZWQiKTsKICAgIHRvYXN0LnN1Y2Nlc3MoIlNhdmVkIHRvIHlvdXIgdHJhY2tlciIpOwogIH0KCiAgaWYgKHN0YXRlID09PSAic2F2ZWQiKSB7CiAgICByZXR1cm4gKAogICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1wcmltYXJ5LzMwIGJnLXByaW1hcnkvNSBweC00IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkiPgogICAgICAgIDxCb29rbWFya0NoZWNrIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gU2F2ZWQgdG8gdHJhY2tlcgogICAgICA8L3NwYW4+CiAgICApOwogIH0KCiAgcmV0dXJuICgKICAgIDxidXR0b24KICAgICAgdHlwZT0iYnV0dG9uIgogICAgICBvbkNsaWNrPXtzYXZlfQogICAgICBkaXNhYmxlZD17c3RhdGUgPT09ICJzYXZpbmcifQogICAgICBjbGFzc05hbWU9ImlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQtbGcgYm9yZGVyIHB4LTQgcHktMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24gaG92ZXI6YmctbXV0ZWQgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgID4KICAgICAgPEJvb2ttYXJrIGNsYXNzTmFtZT0iaC00IHctNCIgLz4KICAgICAge3N0YXRlID09PSAic2F2aW5nIiA/ICJTYXZpbmfigKYiIDogIlNhdmUgdG8gdHJhY2tlciJ9CiAgICA8L2J1dHRvbj4KICApOwp9Cg==
+import { useState } from "react";
+import { useNavigate } from "@tanstack/react-router";
+import { Bookmark, BookmarkCheck } from "lucide-react";
+import { toast } from "sonner";
+import { supabase } from "@/integrations/supabase/client";
+import type { PublicJob } from "@/lib/jobs/types";
+import { formatSalary } from "@/components/jobs/JobCard";
+
+export default function SaveJobButton({ job }: { job: PublicJob }) {
+  const navigate = useNavigate();
+  const [state, setState] = useState<"idle" | "saving" | "saved">("idle");
+
+  async function save() {
+    setState("saving");
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+
+    if (!user) {
+      setState("idle");
+      toast("Sign in to save jobs to your tracker");
+      navigate({ to: "/auth" });
+      return;
+    }
+
+    const salary = formatSalary(job);
+    const { data: inserted, error } = await supabase
+      .from("applications")
+      .insert({
+        user_id: user.id,
+        job_title: job.title,
+        company: job.company,
+        job_url: job.url,
+        location: job.location,
+        salary,
+        status: "saved",
+        notes: `Saved from JobNetWork listing (${job.slug})`,
+      })
+      .select("id")
+      .single();
+
+    if (error) {
+      setState("idle");
+      toast.error("Couldn't save this job — try again");
+      return;
+    }
+
+    await supabase.from("application_activity").insert({
+      application_id: inserted.id,
+      user_id: user.id,
+      event: "Saved from job listing",
+    });
+
+    setState("saved");
+    toast.success("Saved to your tracker");
+  }
+
+  if (state === "saved") {
+    return (
+      <span className="inline-flex items-center gap-1.5 rounded-lg border border-primary/30 bg-primary/5 px-4 py-2 text-sm font-medium text-primary">
+        <BookmarkCheck className="h-4 w-4" /> Saved to tracker
+      </span>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={save}
+      disabled={state === "saving"}
+      className="inline-flex items-center gap-1.5 rounded-lg border px-4 py-2 text-sm font-medium transition hover:bg-muted disabled:opacity-50"
+    >
+      <Bookmark className="h-4 w-4" />
+      {state === "saving" ? "Saving…" : "Save to tracker"}
+    </button>
+  );
+}

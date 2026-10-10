@@ -1,1 +1,128 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rLCBub3RGb3VuZCB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBnZXRKb2JCeVNsdWcgfSBmcm9tICJAL2xpYi9qb2JzL2pvYnMuZnVuY3Rpb25zIjsKaW1wb3J0IHsgZm9ybWF0U2FsYXJ5IH0gZnJvbSAiQC9jb21wb25lbnRzL2pvYnMvSm9iQ2FyZCI7CmltcG9ydCBTYXZlSm9iQnV0dG9uIGZyb20gIkAvY29tcG9uZW50cy9qb2JzL1NhdmVKb2JCdXR0b24iOwoKZnVuY3Rpb24gaHRtbFRvVGV4dChodG1sOiBzdHJpbmcsIG1heCA9IDE2MCk6IHN0cmluZyB7CiAgY29uc3QgdGV4dCA9IGh0bWwKICAgIC5yZXBsYWNlKC88W14+XSo+L2csICIgIikKICAgIC5yZXBsYWNlKC9ccysvZywgIiAiKQogICAgLnRyaW0oKTsKICByZXR1cm4gdGV4dC5sZW5ndGggPiBtYXggPyBgJHt0ZXh0LnNsaWNlKDAsIG1heCAtIDEpfeKApmAgOiB0ZXh0Owp9CgovLyBBbGxvdyBhIHNtYWxsLCBzYWZlIHN1YnNldCBvZiB0YWdzIGZyb20gdGhlIGpvYiBmZWVkOyBzdHJpcCBldmVyeXRoaW5nIGVsc2UuCmZ1bmN0aW9uIHNhbml0aXplSm9iSHRtbChodG1sOiBzdHJpbmcpOiBzdHJpbmcgewogIGxldCBvdXQgPSBodG1sOwogIG91dCA9IG91dC5yZXBsYWNlKC88c2NyaXB0W1xzXFNdKj88XC9zY3JpcHQ+L2dpLCAiIik7CiAgb3V0ID0gb3V0LnJlcGxhY2UoLzxzdHlsZVtcc1xTXSo/PFwvc3R5bGU+L2dpLCAiIik7CiAgb3V0ID0gb3V0LnJlcGxhY2UoL1xzb25cdys9IlteIl0qIi9naSwgIiIpOwogIG91dCA9IG91dC5yZXBsYWNlKC9cc29uXHcrPSdbXiddKicvZ2ksICIiKTsKICBvdXQgPSBvdXQucmVwbGFjZSgvamF2YXNjcmlwdDovZ2ksICIiKTsKICByZXR1cm4gb3V0Owp9CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9qb2JzLyRzbHVnIikoewogIGxvYWRlcjogYXN5bmMgKHsgcGFyYW1zIH0pID0+IHsKICAgIGNvbnN0IGpvYiA9IGF3YWl0IGdldEpvYkJ5U2x1Zyh7IGRhdGE6IHBhcmFtcy5zbHVnIH0pOwogICAgaWYgKCFqb2IpIHRocm93IG5vdEZvdW5kKCk7CiAgICByZXR1cm4gam9iOwogIH0sCiAgaGVhZDogKHsgbG9hZGVyRGF0YTogam9iIH0pID0+ICh7CiAgICBtZXRhOiBqb2IKICAgICAgPyBbCiAgICAgICAgICB7IHRpdGxlOiBgJHtqb2IudGl0bGV9IGF0ICR7am9iLmNvbXBhbnl9IHwgSm9iTmV0V29ya2AgfSwKICAgICAgICAgIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogaHRtbFRvVGV4dChqb2IuZGVzY3JpcHRpb24pIH0sCiAgICAgICAgICB7CiAgICAgICAgICAgIHByb3BlcnR5OiAib2c6dGl0bGUiLAogICAgICAgICAgICBjb250ZW50OiBgJHtqb2IudGl0bGV9IGF0ICR7am9iLmNvbXBhbnl9IHwgSm9iTmV0V29ya2AsCiAgICAgICAgICB9LAogICAgICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogaHRtbFRvVGV4dChqb2IuZGVzY3JpcHRpb24pIH0sCiAgICAgICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICAgICAgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH0sCiAgICAgICAgXQogICAgICA6IFt7IHRpdGxlOiAiSm9iIG5vdCBmb3VuZCB8IEpvYk5ldFdvcmsiIH1dLAogIH0pLAogIGNvbXBvbmVudDogSm9iRGV0YWlsUGFnZSwKfSk7CgpmdW5jdGlvbiBKb2JEZXRhaWxQYWdlKCkgewogIGNvbnN0IGpvYiA9IFJvdXRlLnVzZUxvYWRlckRhdGEoKTsKICBjb25zdCBzYWxhcnkgPSBmb3JtYXRTYWxhcnkoam9iKTsKICBjb25zdCBzYW5pdGl6ZWREZXNjcmlwdGlvbiA9IHNhbml0aXplSm9iSHRtbChqb2IuZGVzY3JpcHRpb24pOwoKICByZXR1cm4gKAogICAgPG1haW4gY2xhc3NOYW1lPSJtaW4taC1zY3JlZW4gYmctYmFja2dyb3VuZCI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTN4bCBweC02IHB5LTEwIG1kOnB4LTEyIj4KICAgICAgICA8TGluayB0bz0iL2pvYnMiIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXByaW1hcnkgaG92ZXI6dW5kZXJsaW5lIj4KICAgICAgICAgIOKGkCBCYWNrIHRvIGFsbCBqb2JzCiAgICAgICAgPC9MaW5rPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icGlubmVkLWNhcmQgbXQtNCBweS02Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC00Ij4KICAgICAgICAgICAge2pvYi5sb2dvID8gKAogICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgIHNyYz17am9iLmxvZ299CiAgICAgICAgICAgICAgICBhbHQ9IiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMiB3LTEyIHNocmluay0wIHJvdW5kZWQtbGcgYm9yZGVyIGJnLWNhcmQgb2JqZWN0LWNvbnRhaW4gcC0xIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaC0xMiB3LTEyIHNocmluay0wIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIGJnLXByaW1hcnkgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtqb2IuY29tcGFueS5jaGFyQXQoMCl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICl9CgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtc2VtaWJvbGQgbGVhZGluZy1zbnVnIj4KICAgICAgICAgICAgICAgIHtqb2IudGl0bGV9CiAgICAgICAgICAgICAgPC9oMT4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2pvYi5jb21wYW55fTwvcD4KCiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgZmxleCBmbGV4LXdyYXAgZ2FwLXgtMyBnYXAteS0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIHtqb2IubG9jYXRpb24gJiYgPHNwYW4+e2pvYi5sb2NhdGlvbn08L3NwYW4+fQogICAgICAgICAgICAgICAge2pvYi5qb2JfdHlwZSAmJiAoCiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iY2FwaXRhbGl6ZSI+CiAgICAgICAgICAgICAgICAgICAge2pvYi5qb2JfdHlwZS5yZXBsYWNlKCItIiwgIiAiKX0KICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIHtzYWxhcnkgJiYgKAogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbWVkaXVtIHRleHQtcHJpbWFyeSI+e3NhbGFyeX08L3NwYW4+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7am9iLnNraWxscy5sZW5ndGggPiAwICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAgICAgICAgICB7am9iLnNraWxscy5tYXAoKHNraWxsKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgPHNwYW4KICAgICAgICAgICAgICAgICAgICAgIGtleT17c2tpbGx9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJvdW5kZWQtbWQgYmctbXV0ZWQgcHgtMi41IHB5LTEgdGV4dC14cyB0ZXh0LWZvcmVncm91bmQvODAiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAge3NraWxsfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAgPGEKICAgICAgICAgICAgICBocmVmPXtqb2IudXJsfQogICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1ibG9jayByb3VuZGVkLWxnIGJnLXByaW1hcnkgcHgtNCBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1wcmltYXJ5LWZvcmVncm91bmQgdHJhbnNpdGlvbiBob3ZlcjpvcGFjaXR5LTkwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgQXBwbHkg4oaSCiAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPFNhdmVKb2JCdXR0b24gam9iPXtqb2J9IC8+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2CiAgICAgICAgICAgIGNsYXNzTmFtZT0icHJvc2UgcHJvc2Utc20gbXQtNiBtYXgtdy1ub25lIGJvcmRlci10IHB0LTYgdGV4dC1mb3JlZ3JvdW5kLzgwIgogICAgICAgICAgICBkYW5nZXJvdXNseVNldElubmVySFRNTD17eyBfX2h0bWw6IHNhbml0aXplZERlc2NyaXB0aW9uIH19CiAgICAgICAgICAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvbWFpbj4KICApOwp9Cg==
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { getJobBySlug } from "@/lib/jobs/jobs.functions";
+import { formatSalary } from "@/components/jobs/JobCard";
+import SaveJobButton from "@/components/jobs/SaveJobButton";
+
+function htmlToText(html: string, max = 160): string {
+  const text = html
+    .replace(/<[^>]*>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return text.length > max ? `${text.slice(0, max - 1)}…` : text;
+}
+
+// Allow a small, safe subset of tags from the job feed; strip everything else.
+function sanitizeJobHtml(html: string): string {
+  let out = html;
+  out = out.replace(/<script[\s\S]*?<\/script>/gi, "");
+  out = out.replace(/<style[\s\S]*?<\/style>/gi, "");
+  out = out.replace(/\son\w+="[^"]*"/gi, "");
+  out = out.replace(/\son\w+='[^']*'/gi, "");
+  out = out.replace(/javascript:/gi, "");
+  return out;
+}
+
+export const Route = createFileRoute("/jobs/$slug")({
+  loader: async ({ params }) => {
+    const job = await getJobBySlug({ data: params.slug });
+    if (!job) throw notFound();
+    return job;
+  },
+  head: ({ loaderData: job }) => ({
+    meta: job
+      ? [
+          { title: `${job.title} at ${job.company} | JobNetWork` },
+          { name: "description", content: htmlToText(job.description) },
+          {
+            property: "og:title",
+            content: `${job.title} at ${job.company} | JobNetWork`,
+          },
+          { property: "og:description", content: htmlToText(job.description) },
+          { property: "og:type", content: "website" },
+          { name: "twitter:card", content: "summary" },
+        ]
+      : [{ title: "Job not found | JobNetWork" }],
+  }),
+  component: JobDetailPage,
+});
+
+function JobDetailPage() {
+  const job = Route.useLoaderData();
+  const salary = formatSalary(job);
+  const sanitizedDescription = sanitizeJobHtml(job.description);
+
+  return (
+    <main className="min-h-screen bg-background">
+      <div className="mx-auto max-w-3xl px-6 py-10 md:px-12">
+        <Link to="/jobs" className="text-sm text-primary hover:underline">
+          ← Back to all jobs
+        </Link>
+
+        <div className="pinned-card mt-4 py-6">
+          <div className="flex items-start gap-4">
+            {job.logo ? (
+              <img
+                src={job.logo}
+                alt=""
+                className="h-12 w-12 shrink-0 rounded-lg border bg-card object-contain p-1"
+              />
+            ) : (
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary text-lg font-semibold text-primary-foreground">
+                {job.company.charAt(0)}
+              </div>
+            )}
+
+            <div className="min-w-0 flex-1">
+              <h1 className="text-2xl font-semibold leading-snug">
+                {job.title}
+              </h1>
+              <p className="text-muted-foreground">{job.company}</p>
+
+              <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted-foreground">
+                {job.location && <span>{job.location}</span>}
+                {job.job_type && (
+                  <span className="capitalize">
+                    {job.job_type.replace("-", " ")}
+                  </span>
+                )}
+                {salary && (
+                  <span className="font-medium text-primary">{salary}</span>
+                )}
+              </div>
+
+              {job.skills.length > 0 && (
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {job.skills.map((skill) => (
+                    <span
+                      key={skill}
+                      className="rounded-md bg-muted px-2.5 py-1 text-xs text-foreground/80"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
+          <div className="mt-5 flex flex-wrap gap-2">
+            <a
+              href={job.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition hover:opacity-90"
+            >
+              Apply →
+            </a>
+            <SaveJobButton job={job} />
+          </div>
+
+          <div
+            className="prose prose-sm mt-6 max-w-none border-t pt-6 text-foreground/80"
+            dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
+          />
+        </div>
+      </div>
+    </main>
+  );
+}
