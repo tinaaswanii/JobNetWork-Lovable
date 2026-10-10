@@ -1,0 +1,135 @@
+import Link from "next/link";
+import type { PublicJob } from "@/lib/types";
+
+function formatSalary(job: PublicJob) {
+  if (!job.salary_min && !job.salary_max) return null;
+  const curr = (job.salary_curr ?? "").toUpperCase();
+  const isInr = curr === "INR";
+  const prefix = isInr ? "₹" : curr ? `${curr} ` : "";
+  // Indian digit grouping (1,00,000) for rupees, standard grouping otherwise.
+  const fmt = (n: number) =>
+    new Intl.NumberFormat(isInr ? "en-IN" : "en-US", {
+      maximumFractionDigits: 0,
+    }).format(n);
+  if (job.salary_min && job.salary_max) {
+    return `${prefix}${fmt(job.salary_min)} - ${prefix}${fmt(job.salary_max)}`;
+  }
+  return `${prefix}${fmt(job.salary_min ?? job.salary_max!)}+`;
+}
+
+function ageInDays(dateStr: string) {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
+}
+
+function timeAgo(dateStr: string) {
+  const days = ageInDays(dateStr);
+  if (days <= 0) return "Posted today";
+  if (days === 1) return "Posted yesterday";
+  return `Posted ${days} days ago`;
+}
+
+export default function JobCard({ job }: { job: PublicJob }) {
+  const salary = formatSalary(job);
+  const isNew = ageInDays(job.posted_date) <= 2;
+  const visibleSkills = (job.skills ?? []).slice(0, 4);
+  const extraSkillCount = (job.skills ?? []).length - visibleSkills.length;
+
+  // NOTE: this must stay a single JSON "job" param — app/match/page.tsx
+  // reads searchParams.get("job") and JSON.parses it. Sending separate
+  // title/company/skills params here (as a previous edit did) breaks the
+  // match page silently, since it will never find a "job" key.
+  const matchHref = `/match?job=${encodeURIComponent(
+    JSON.stringify({
+      title: job.title,
+      description: job.description,
+      skills: job.skills,
+      exp_min: job.exp_min,
+      exp_max: job.exp_max,
+    })
+  )}`;
+
+  return (
+    <div className="pinned-card py-5">
+      <Link href={`/jobs/${job.slug}`} className="flex items-start gap-4">
+        {job.logo ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={job.logo}
+            alt=""
+            className="h-11 w-11 shrink-0 rounded-lg border bg-white object-contain p-1"
+          />
+        ) : (
+          <div className="h-11 w-11 shrink-0 rounded-lg bg-board text-white flex items-center justify-center text-base font-semibold">
+            {job.company.charAt(0)}
+          </div>
+        )}
+
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            <h3 className="truncate text-base font-semibold leading-snug text-ink">
+              {job.title}
+            </h3>
+            {isNew && (
+              <span className="shrink-0 rounded-md bg-mustard px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-ink">
+                New
+              </span>
+            )}
+          </div>
+
+          <p className="text-sm text-muted-foreground">{job.company}</p>
+
+          <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted-foreground">
+            {job.location && <span>{job.location}</span>}
+            {job.job_type && (
+              <span className="capitalize">
+                {job.job_type.replace("-", " ")}
+              </span>
+            )}
+            {salary && (
+              <span className="text-denim font-medium">{salary}</span>
+            )}
+          </div>
+
+          {visibleSkills.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {visibleSkills.map((skill) => (
+                <span
+                  key={skill}
+                  className="rounded-md bg-muted px-2 py-0.5 text-xs text-ink/80"
+                >
+                  {skill}
+                </span>
+              ))}
+              {extraSkillCount > 0 && (
+                <span className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground">
+                  +{extraSkillCount} more
+                </span>
+              )}
+            </div>
+          )}
+
+          <p className="mt-2 text-xs text-muted-foreground">
+            {timeAgo(job.posted_date)}
+          </p>
+        </div>
+      </Link>
+
+      <div className="mt-3 flex flex-wrap gap-2">
+        <a
+          href={job.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block rounded-lg bg-board px-4 py-2 text-sm font-medium text-white transition hover:bg-[#0b3a28]"
+        >
+          Apply →
+        </a>
+        <Link
+          href={matchHref}
+          className="inline-block rounded-lg border px-4 py-2 text-sm font-medium text-ink transition hover:bg-muted"
+        >
+          Match my resume
+        </Link>
+      </div>
+    </div>
+  );
+}
