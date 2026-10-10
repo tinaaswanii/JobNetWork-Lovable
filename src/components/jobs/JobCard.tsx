@@ -1,1 +1,117 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgdHlwZSB7IFB1YmxpY0pvYiB9IGZyb20gIkAvbGliL2pvYnMvdHlwZXMiOwoKZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdFNhbGFyeShqb2I6IFB1YmxpY0pvYikgewogIGlmICgham9iLnNhbGFyeV9taW4gJiYgIWpvYi5zYWxhcnlfbWF4KSByZXR1cm4gbnVsbDsKICBjb25zdCBjdXJyID0gKGpvYi5zYWxhcnlfY3VyciA/PyAiIikudG9VcHBlckNhc2UoKTsKICBjb25zdCBpc0luciA9IGN1cnIgPT09ICJJTlIiOwogIGNvbnN0IHByZWZpeCA9IGlzSW5yID8gIuKCuSIgOiBjdXJyID8gYCR7Y3Vycn0gYCA6ICIiOwogIC8vIEluZGlhbiBkaWdpdCBncm91cGluZyAoMSwwMCwwMDApIGZvciBydXBlZXMsIHN0YW5kYXJkIGdyb3VwaW5nIG90aGVyd2lzZS4KICBjb25zdCBmbXQgPSAobjogbnVtYmVyKSA9PgogICAgbmV3IEludGwuTnVtYmVyRm9ybWF0KGlzSW5yID8gImVuLUlOIiA6ICJlbi1VUyIsIHsKICAgICAgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiAwLAogICAgfSkuZm9ybWF0KG4pOwogIGlmIChqb2Iuc2FsYXJ5X21pbiAmJiBqb2Iuc2FsYXJ5X21heCkgewogICAgcmV0dXJuIGAke3ByZWZpeH0ke2ZtdChqb2Iuc2FsYXJ5X21pbil9IC0gJHtwcmVmaXh9JHtmbXQoam9iLnNhbGFyeV9tYXgpfWA7CiAgfQogIHJldHVybiBgJHtwcmVmaXh9JHtmbXQoam9iLnNhbGFyeV9taW4gPz8gam9iLnNhbGFyeV9tYXghKX0rYDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGFnZUluRGF5cyhkYXRlU3RyOiBzdHJpbmcpIHsKICByZXR1cm4gTWF0aC5mbG9vcigoRGF0ZS5ub3coKSAtIG5ldyBEYXRlKGRhdGVTdHIpLmdldFRpbWUoKSkgLyA4NjQwMDAwMCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiB0aW1lQWdvKGRhdGVTdHI6IHN0cmluZykgewogIGNvbnN0IGRheXMgPSBhZ2VJbkRheXMoZGF0ZVN0cik7CiAgaWYgKGRheXMgPD0gMCkgcmV0dXJuICJQb3N0ZWQgdG9kYXkiOwogIGlmIChkYXlzID09PSAxKSByZXR1cm4gIlBvc3RlZCB5ZXN0ZXJkYXkiOwogIHJldHVybiBgUG9zdGVkICR7ZGF5c30gZGF5cyBhZ29gOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBKb2JDYXJkKHsgam9iIH06IHsgam9iOiBQdWJsaWNKb2IgfSkgewogIGNvbnN0IHNhbGFyeSA9IGZvcm1hdFNhbGFyeShqb2IpOwogIGNvbnN0IGlzTmV3ID0gYWdlSW5EYXlzKGpvYi5wb3N0ZWRfZGF0ZSkgPD0gMjsKICBjb25zdCB2aXNpYmxlU2tpbGxzID0gKGpvYi5za2lsbHMgPz8gW10pLnNsaWNlKDAsIDQpOwogIGNvbnN0IGV4dHJhU2tpbGxDb3VudCA9IChqb2Iuc2tpbGxzID8/IFtdKS5sZW5ndGggLSB2aXNpYmxlU2tpbGxzLmxlbmd0aDsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJwaW5uZWQtY2FyZCBweS01Ij4KICAgICAgPExpbmsKICAgICAgICB0bz0iL2pvYnMvJHNsdWciCiAgICAgICAgcGFyYW1zPXt7IHNsdWc6IGpvYi5zbHVnIH19CiAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC00IgogICAgICA+CiAgICAgICAge2pvYi5sb2dvID8gKAogICAgICAgICAgPGltZwogICAgICAgICAgICBzcmM9e2pvYi5sb2dvfQogICAgICAgICAgICBhbHQ9IiIKICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTExIHctMTEgc2hyaW5rLTAgcm91bmRlZC1sZyBib3JkZXIgYmctY2FyZCBvYmplY3QtY29udGFpbiBwLTEiCiAgICAgICAgICAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBoLTExIHctMTEgc2hyaW5rLTAgaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHJvdW5kZWQtbGcgYmctcHJpbWFyeSB0ZXh0LWJhc2UgZm9udC1zZW1pYm9sZCB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIHtqb2IuY29tcGFueS5jaGFyQXQoMCl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApfQoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idHJ1bmNhdGUgdGV4dC1iYXNlIGZvbnQtc2VtaWJvbGQgbGVhZGluZy1zbnVnIj4KICAgICAgICAgICAgICB7am9iLnRpdGxlfQogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICB7aXNOZXcgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ic2hyaW5rLTAgcm91bmRlZC1tZCBiZy1hY2NlbnQgcHgtMiBweS0wLjUgdGV4dC1bMTBweF0gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZSB0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIE5ldwogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntqb2IuY29tcGFueX08L3A+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgZmxleCBmbGV4LXdyYXAgZ2FwLXgtMyBnYXAteS0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAge2pvYi5sb2NhdGlvbiAmJiA8c3Bhbj57am9iLmxvY2F0aW9ufTwvc3Bhbj59CiAgICAgICAgICAgIHtqb2Iuam9iX3R5cGUgJiYgKAogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iY2FwaXRhbGl6ZSI+CiAgICAgICAgICAgICAgICB7am9iLmpvYl90eXBlLnJlcGxhY2UoIi0iLCAiICIpfQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgKX0KICAgICAgICAgICAge3NhbGFyeSAmJiAoCiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkiPntzYWxhcnl9PC9zcGFuPgogICAgICAgICAgICApfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAge3Zpc2libGVTa2lsbHMubGVuZ3RoID4gMCAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0yIGZsZXggZmxleC13cmFwIGdhcC0xLjUiPgogICAgICAgICAgICAgIHt2aXNpYmxlU2tpbGxzLm1hcCgoc2tpbGwpID0+ICgKICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgIGtleT17c2tpbGx9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1tZCBiZy1tdXRlZCBweC0yIHB5LTAuNSB0ZXh0LXhzIHRleHQtZm9yZWdyb3VuZC84MCIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge3NraWxsfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIHtleHRyYVNraWxsQ291bnQgPiAwICYmICgKICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icm91bmRlZC1tZCBiZy1tdXRlZCBweC0yIHB5LTAuNSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgICAgICt7ZXh0cmFTa2lsbENvdW50fQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICB7dGltZUFnbyhqb2IucG9zdGVkX2RhdGUpfQogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L0xpbms+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { Link } from "@tanstack/react-router";
+import type { PublicJob } from "@/lib/jobs/types";
+
+export function formatSalary(job: PublicJob) {
+  if (!job.salary_min && !job.salary_max) return null;
+  const curr = (job.salary_curr ?? "").toUpperCase();
+  const isInr = curr === "INR";
+  const prefix = isInr ? "₹" : curr ? `${curr} ` : "";
+  // Indian digit grouping (1,00,000) for rupees, standard grouping otherwise.
+  const fmt = (n: number) =>
+    new Intl.NumberFormat(isInr ? "en-IN" : "en-US", {
+      maximumFractionDigits: 0,
+    }).format(n);
+  if (job.salary_min && job.salary_max) {
+    return `${prefix}${fmt(job.salary_min)} - ${prefix}${fmt(job.salary_max)}`;
+  }
+  return `${prefix}${fmt(job.salary_min ?? job.salary_max!)}+`;
+}
+
+export function ageInDays(dateStr: string) {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86400000);
+}
+
+export function timeAgo(dateStr: string) {
+  const days = ageInDays(dateStr);
+  if (days <= 0) return "Posted today";
+  if (days === 1) return "Posted yesterday";
+  return `Posted ${days} days ago`;
+}
+
+export default function JobCard({ job }: { job: PublicJob }) {
+  const salary = formatSalary(job);
+  const isNew = ageInDays(job.posted_date) <= 2;
+  const visibleSkills = (job.skills ?? []).slice(0, 4);
+  const extraSkillCount = (job.skills ?? []).length - visibleSkills.length;
+
+  return (
+    <div className="pinned-card flex h-full flex-col py-5">
+      <Link
+        to="/jobs/$slug"
+        params={{ slug: job.slug }}
+        className="flex items-start gap-4"
+      >
+        {job.logo ? (
+          <img
+            src={job.logo}
+            alt=""
+            className="h-11 w-11 shrink-0 rounded-lg border bg-card object-contain p-1"
+          />
+        ) : (
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary text-base font-semibold text-primary-foreground">
+            {job.company.charAt(0)}
+          </div>
+        )}
+
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center gap-2">
+            <h3 className="truncate text-base font-semibold leading-snug">
+              {job.title}
+            </h3>
+            {isNew && (
+              <span className="shrink-0 rounded-md bg-accent px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-accent-foreground">
+                New
+              </span>
+            )}
+          </div>
+
+          <p className="text-sm text-muted-foreground">{job.company}</p>
+
+          <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted-foreground">
+            {job.location && <span>{job.location}</span>}
+            {job.job_type && (
+              <span className="capitalize">
+                {job.job_type.replace("-", " ")}
+              </span>
+            )}
+            {salary && (
+              <span className="font-medium text-primary">{salary}</span>
+            )}
+          </div>
+
+          {visibleSkills.length > 0 && (
+            <div className="mt-2 flex flex-wrap gap-1.5">
+              {visibleSkills.map((skill) => (
+                <span
+                  key={skill}
+                  className="rounded-md bg-muted px-2 py-0.5 text-xs text-foreground/80"
+                >
+                  {skill}
+                </span>
+              ))}
+              {extraSkillCount > 0 && (
+                <span className="rounded-md bg-muted px-2 py-0.5 text-xs text-muted-foreground">
+                  +{extraSkillCount}
+                </span>
+              )}
+            </div>
+          )}
+        </div>
+      </Link>
+
+      <div className="mt-4 flex items-center justify-between gap-3 border-t pt-3">
+        <p className="text-xs text-muted-foreground">
+          {timeAgo(job.posted_date)}
+        </p>
+        <a
+          href={job.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex shrink-0 items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground transition hover:opacity-90"
+        >
+          Apply ↗
+        </a>
+      </div>
+    </div>
+  );
+}

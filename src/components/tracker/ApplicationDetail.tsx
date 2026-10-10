@@ -1,1 +1,300 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IHVzZU11dGF0aW9uLCB1c2VRdWVyeSwgdXNlUXVlcnlDbGllbnQgfSBmcm9tICJAdGFuc3RhY2svcmVhY3QtcXVlcnkiOwppbXBvcnQgeyBDYWxlbmRhclBsdXMsIFBlbmNpbCwgVHJhc2gyLCBNYXBQaW4sIEhpc3RvcnkgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CmltcG9ydCB0eXBlIHsgVGFibGVzIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvdHlwZXMiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IFRleHRhcmVhIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RleHRhcmVhIjsKaW1wb3J0IHsKICBEaWFsb2csCiAgRGlhbG9nQ29udGVudCwKICBEaWFsb2dIZWFkZXIsCiAgRGlhbG9nVGl0bGUsCn0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2RpYWxvZyI7CmltcG9ydCB7IHRvYXN0IH0gZnJvbSAic29ubmVyIjsKCnR5cGUgQXBwbGljYXRpb24gPSBUYWJsZXM8ImFwcGxpY2F0aW9ucyI+Owp0eXBlIEludGVydmlldyA9IFRhYmxlczwiaW50ZXJ2aWV3cyI+OwoKY29uc3QgZW1wdHlJbnRlcnZpZXcgPSB7IHJvdW5kOiAiIiwgc2NoZWR1bGVkX2F0OiAiIiwgbG9jYXRpb246ICIiLCBub3RlczogIiIgfTsKCmZ1bmN0aW9uIHRvTG9jYWxJbnB1dChpc286IHN0cmluZykgewogIGNvbnN0IGQgPSBuZXcgRGF0ZShpc28pOwogIGNvbnN0IHBhZCA9IChuOiBudW1iZXIpID0+IFN0cmluZyhuKS5wYWRTdGFydCgyLCAiMCIpOwogIHJldHVybiBgJHtkLmdldEZ1bGxZZWFyKCl9LSR7cGFkKGQuZ2V0TW9udGgoKSArIDEpfS0ke3BhZChkLmdldERhdGUoKSl9VCR7cGFkKGQuZ2V0SG91cnMoKSl9OiR7cGFkKGQuZ2V0TWludXRlcygpKX1gOwp9CgpleHBvcnQgZnVuY3Rpb24gQXBwbGljYXRpb25EZXRhaWwoewogIGFwcGxpY2F0aW9uLAogIG9wZW4sCiAgb25PcGVuQ2hhbmdlLAp9OiB7CiAgYXBwbGljYXRpb246IEFwcGxpY2F0aW9uIHwgbnVsbDsKICBvcGVuOiBib29sZWFuOwogIG9uT3BlbkNoYW5nZTogKG9wZW46IGJvb2xlYW4pID0+IHZvaWQ7Cn0pIHsKICBjb25zdCBxdWVyeUNsaWVudCA9IHVzZVF1ZXJ5Q2xpZW50KCk7CiAgY29uc3QgW2Zvcm0sIHNldEZvcm1dID0gdXNlU3RhdGUoZW1wdHlJbnRlcnZpZXcpOwogIGNvbnN0IFtlZGl0aW5nSWQsIHNldEVkaXRpbmdJZF0gPSB1c2VTdGF0ZTxzdHJpbmcgfCBudWxsPihudWxsKTsKICBjb25zdCBhcHBJZCA9IGFwcGxpY2F0aW9uPy5pZDsKCiAgY29uc3QgeyBkYXRhOiBpbnRlcnZpZXdzID0gW10gfSA9IHVzZVF1ZXJ5KHsKICAgIHF1ZXJ5S2V5OiBbImludGVydmlld3MiLCBhcHBJZF0sCiAgICBlbmFibGVkOiAhIWFwcElkICYmIG9wZW4sCiAgICBxdWVyeUZuOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAgICAgLmZyb20oImludGVydmlld3MiKQogICAgICAgIC5zZWxlY3QoIioiKQogICAgICAgIC5lcSgiYXBwbGljYXRpb25faWQiLCBhcHBJZCEpCiAgICAgICAgLm9yZGVyKCJzY2hlZHVsZWRfYXQiLCB7IGFzY2VuZGluZzogdHJ1ZSB9KTsKICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcjsKICAgICAgcmV0dXJuIGRhdGE7CiAgICB9LAogIH0pOwoKICBjb25zdCB7IGRhdGE6IGFjdGl2aXR5ID0gW10gfSA9IHVzZVF1ZXJ5KHsKICAgIHF1ZXJ5S2V5OiBbImFjdGl2aXR5IiwgYXBwSWRdLAogICAgZW5hYmxlZDogISFhcHBJZCAmJiBvcGVuLAogICAgcXVlcnlGbjogYXN5bmMgKCkgPT4gewogICAgICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgIC5mcm9tKCJhcHBsaWNhdGlvbl9hY3Rpdml0eSIpCiAgICAgICAgLnNlbGVjdCgiKiIpCiAgICAgICAgLmVxKCJhcHBsaWNhdGlvbl9pZCIsIGFwcElkISkKICAgICAgICAub3JkZXIoImNyZWF0ZWRfYXQiLCB7IGFzY2VuZGluZzogZmFsc2UgfSk7CiAgICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7CiAgICAgIHJldHVybiBkYXRhOwogICAgfSwKICB9KTsKCiAgZnVuY3Rpb24gaW52YWxpZGF0ZSgpIHsKICAgIHF1ZXJ5Q2xpZW50LmludmFsaWRhdGVRdWVyaWVzKHsgcXVlcnlLZXk6IFsiaW50ZXJ2aWV3cyIsIGFwcElkXSB9KTsKICAgIHF1ZXJ5Q2xpZW50LmludmFsaWRhdGVRdWVyaWVzKHsgcXVlcnlLZXk6IFsiYWN0aXZpdHkiLCBhcHBJZF0gfSk7CiAgICBxdWVyeUNsaWVudC5pbnZhbGlkYXRlUXVlcmllcyh7IHF1ZXJ5S2V5OiBbInVwY29taW5nLWludGVydmlld3MiXSB9KTsKICB9CgogIGNvbnN0IHNhdmVJbnRlcnZpZXcgPSB1c2VNdXRhdGlvbih7CiAgICBtdXRhdGlvbkZuOiBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IHsgZGF0YTogdXNlckRhdGEgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcigpOwogICAgICBjb25zdCB1c2VyID0gdXNlckRhdGEudXNlcjsKICAgICAgaWYgKCF1c2VyIHx8ICFhcHBJZCkgdGhyb3cgbmV3IEVycm9yKCJOb3Qgc2lnbmVkIGluIik7CiAgICAgIGNvbnN0IHBheWxvYWQgPSB7CiAgICAgICAgcm91bmQ6IGZvcm0ucm91bmQudHJpbSgpLAogICAgICAgIHNjaGVkdWxlZF9hdDogbmV3IERhdGUoZm9ybS5zY2hlZHVsZWRfYXQpLnRvSVNPU3RyaW5nKCksCiAgICAgICAgbG9jYXRpb246IGZvcm0ubG9jYXRpb24udHJpbSgpIHx8IG51bGwsCiAgICAgICAgbm90ZXM6IGZvcm0ubm90ZXMudHJpbSgpIHx8IG51bGwsCiAgICAgIH07CiAgICAgIGlmIChlZGl0aW5nSWQpIHsKICAgICAgICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgICAgICAgLmZyb20oImludGVydmlld3MiKQogICAgICAgICAgLnVwZGF0ZShwYXlsb2FkKQogICAgICAgICAgLmVxKCJpZCIsIGVkaXRpbmdJZCk7CiAgICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcjsKICAgICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJhcHBsaWNhdGlvbl9hY3Rpdml0eSIpLmluc2VydCh7CiAgICAgICAgICBhcHBsaWNhdGlvbl9pZDogYXBwSWQsCiAgICAgICAgICB1c2VyX2lkOiB1c2VyLmlkLAogICAgICAgICAgZXZlbnQ6IGBJbnRlcnZpZXcgdXBkYXRlZDogJHtwYXlsb2FkLnJvdW5kfWAsCiAgICAgICAgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgICAgICAgIC5mcm9tKCJpbnRlcnZpZXdzIikKICAgICAgICAgIC5pbnNlcnQoeyAuLi5wYXlsb2FkLCBhcHBsaWNhdGlvbl9pZDogYXBwSWQsIHVzZXJfaWQ6IHVzZXIuaWQgfSk7CiAgICAgICAgaWYgKGVycm9yKSB0aHJvdyBlcnJvcjsKICAgICAgICBhd2FpdCBzdXBhYmFzZS5mcm9tKCJhcHBsaWNhdGlvbl9hY3Rpdml0eSIpLmluc2VydCh7CiAgICAgICAgICBhcHBsaWNhdGlvbl9pZDogYXBwSWQsCiAgICAgICAgICB1c2VyX2lkOiB1c2VyLmlkLAogICAgICAgICAgZXZlbnQ6IGBJbnRlcnZpZXcgc2NoZWR1bGVkOiAke3BheWxvYWQucm91bmR9YCwKICAgICAgICB9KTsKICAgICAgfQogICAgfSwKICAgIG9uU3VjY2VzczogKCkgPT4gewogICAgICBpbnZhbGlkYXRlKCk7CiAgICAgIHNldEZvcm0oZW1wdHlJbnRlcnZpZXcpOwogICAgICBzZXRFZGl0aW5nSWQobnVsbCk7CiAgICAgIHRvYXN0LnN1Y2Nlc3MoZWRpdGluZ0lkID8gIkludGVydmlldyB1cGRhdGVkIiA6ICJJbnRlcnZpZXcgc2NoZWR1bGVkIik7CiAgICB9LAogICAgb25FcnJvcjogKCkgPT4gdG9hc3QuZXJyb3IoIkNvdWxkIG5vdCBzYXZlIHRoZSBpbnRlcnZpZXcuIFBsZWFzZSB0cnkgYWdhaW4uIiksCiAgfSk7CgogIGNvbnN0IGRlbGV0ZUludGVydmlldyA9IHVzZU11dGF0aW9uKHsKICAgIG11dGF0aW9uRm46IGFzeW5jIChpZDogc3RyaW5nKSA9PiB7CiAgICAgIGNvbnN0IHsgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oImludGVydmlld3MiKS5kZWxldGUoKS5lcSgiaWQiLCBpZCk7CiAgICAgIGlmIChlcnJvcikgdGhyb3cgZXJyb3I7CiAgICB9LAogICAgb25TdWNjZXNzOiAoKSA9PiB7CiAgICAgIGludmFsaWRhdGUoKTsKICAgICAgdG9hc3Quc3VjY2VzcygiSW50ZXJ2aWV3IHJlbW92ZWQiKTsKICAgIH0sCiAgICBvbkVycm9yOiAoKSA9PiB0b2FzdC5lcnJvcigiQ291bGQgbm90IHJlbW92ZSB0aGUgaW50ZXJ2aWV3LiIpLAogIH0pOwoKICBmdW5jdGlvbiBzdGFydEVkaXQoaXY6IEludGVydmlldykgewogICAgc2V0RWRpdGluZ0lkKGl2LmlkKTsKICAgIHNldEZvcm0oewogICAgICByb3VuZDogaXYucm91bmQgPz8gIiIsCiAgICAgIHNjaGVkdWxlZF9hdDogdG9Mb2NhbElucHV0KGl2LnNjaGVkdWxlZF9hdCksCiAgICAgIGxvY2F0aW9uOiBpdi5sb2NhdGlvbiA/PyAiIiwKICAgICAgbm90ZXM6IGl2Lm5vdGVzID8/ICIiLAogICAgfSk7CiAgfQoKICByZXR1cm4gKAogICAgPERpYWxvZyBvcGVuPXtvcGVufSBvbk9wZW5DaGFuZ2U9e29uT3BlbkNoYW5nZX0+CiAgICAgIDxEaWFsb2dDb250ZW50IGNsYXNzTmFtZT0ibWF4LWgtWzkwdmhdIG92ZXJmbG93LXktYXV0byBzbTptYXgtdy0yeGwiPgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGU+CiAgICAgICAgICAgIHthcHBsaWNhdGlvbj8uam9iX3RpdGxlfSDCtyB7YXBwbGljYXRpb24/LmNvbXBhbnl9CiAgICAgICAgICA8L0RpYWxvZ1RpdGxlPgogICAgICAgIDwvRGlhbG9nSGVhZGVyPgoKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImdyaWQgZ2FwLTMiPgogICAgICAgICAgPGgzIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSBmb250LXNlbWlib2xkIj4KICAgICAgICAgICAgPENhbGVuZGFyUGx1cyBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IEludGVydmlld3MKICAgICAgICAgIDwvaDM+CiAgICAgICAgICB7aW50ZXJ2aWV3cy5sZW5ndGggPT09IDAgPyAoCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIE5vIGludGVydmlld3Mgc2NoZWR1bGVkIHlldC4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0iZ3JpZCBnYXAtMiI+CiAgICAgICAgICAgICAge2ludGVydmlld3MubWFwKChpdikgPT4gKAogICAgICAgICAgICAgICAgPGxpCiAgICAgICAgICAgICAgICAgIGtleT17aXYuaWR9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMgcm91bmRlZC1sZyBib3JkZXIgcC0zIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e2l2LnJvdW5kfTwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgIHtuZXcgRGF0ZShpdi5zY2hlZHVsZWRfYXQpLnRvTG9jYWxlU3RyaW5nKCl9CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgIHtpdi5sb2NhdGlvbiAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgICAgICAgPE1hcFBpbiBjbGFzc05hbWU9ImgtMyB3LTMiIC8+IHtpdi5sb2NhdGlvbn0KICAgICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICAgIHtpdi5ub3RlcyAmJiAoCiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntpdi5ub3Rlc308L3A+CiAgICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IHNocmluay0wIj4KICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgICAgICAgICAgICAgICAgIHNpemU9Imljb24iCiAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzdGFydEVkaXQoaXYpfQogICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbD0iRWRpdCBpbnRlcnZpZXciCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPFBlbmNpbCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0iZ2hvc3QiCiAgICAgICAgICAgICAgICAgICAgICBzaXplPSJpY29uIgogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gZGVsZXRlSW50ZXJ2aWV3Lm11dGF0ZShpdi5pZCl9CiAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJEZWxldGUgaW50ZXJ2aWV3IgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxUcmFzaDIgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtZGVzdHJ1Y3RpdmUiIC8+CiAgICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICl9CgogICAgICAgICAgPGZvcm0KICAgICAgICAgICAgY2xhc3NOYW1lPSJncmlkIGdhcC0zIHJvdW5kZWQtbGcgYm9yZGVyIGJnLW11dGVkLzQwIHAtMyIKICAgICAgICAgICAgb25TdWJtaXQ9eyhlKSA9PiB7CiAgICAgICAgICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgICAgICAgICAgIHNhdmVJbnRlcnZpZXcubXV0YXRlKCk7CiAgICAgICAgICAgIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAge2VkaXRpbmdJZCA/ICJFZGl0IGludGVydmlldyIgOiAiU2NoZWR1bGUgYW4gaW50ZXJ2aWV3In0KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtMyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iaXYtcm91bmQiPlJvdW5kICo8L0xhYmVsPgogICAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICAgIGlkPSJpdi1yb3VuZCIKICAgICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9ImUuZy4gUGhvbmUgc2NyZWVuIgogICAgICAgICAgICAgICAgICB2YWx1ZT17Zm9ybS5yb3VuZH0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgcm91bmQ6IGUudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMS41Ij4KICAgICAgICAgICAgICAgIDxMYWJlbCBodG1sRm9yPSJpdi13aGVuIj5EYXRlICYgdGltZSAqPC9MYWJlbD4KICAgICAgICAgICAgICAgIDxJbnB1dAogICAgICAgICAgICAgICAgICBpZD0iaXYtd2hlbiIKICAgICAgICAgICAgICAgICAgcmVxdWlyZWQKICAgICAgICAgICAgICAgICAgdHlwZT0iZGF0ZXRpbWUtbG9jYWwiCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtLnNjaGVkdWxlZF9hdH0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgc2NoZWR1bGVkX2F0OiBlLnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMS41Ij4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iaXYtbG9jYXRpb24iPkxvY2F0aW9uIC8gbGluazwvTGFiZWw+CiAgICAgICAgICAgICAgPElucHV0CiAgICAgICAgICAgICAgICBpZD0iaXYtbG9jYXRpb24iCiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iT2ZmaWNlIGFkZHJlc3Mgb3IgdmlkZW8gbGluayIKICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtLmxvY2F0aW9ufQogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRGb3JtKHsgLi4uZm9ybSwgbG9jYXRpb246IGUudGFyZ2V0LnZhbHVlIH0pfQogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMS41Ij4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0iaXYtbm90ZXMiPk5vdGVzPC9MYWJlbD4KICAgICAgICAgICAgICA8VGV4dGFyZWEKICAgICAgICAgICAgICAgIGlkPSJpdi1ub3RlcyIKICAgICAgICAgICAgICAgIHJvd3M9ezJ9CiAgICAgICAgICAgICAgICB2YWx1ZT17Zm9ybS5ub3Rlc30KICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0Rm9ybSh7IC4uLmZvcm0sIG5vdGVzOiBlLnRhcmdldC52YWx1ZSB9KX0KICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTIiPgogICAgICAgICAgICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiBzaXplPSJzbSIgZGlzYWJsZWQ9e3NhdmVJbnRlcnZpZXcuaXNQZW5kaW5nfT4KICAgICAgICAgICAgICAgIHtzYXZlSW50ZXJ2aWV3LmlzUGVuZGluZwogICAgICAgICAgICAgICAgICA/ICJTYXZpbmfigKYiCiAgICAgICAgICAgICAgICAgIDogZWRpdGluZ0lkCiAgICAgICAgICAgICAgICAgICAgPyAiU2F2ZSBjaGFuZ2VzIgogICAgICAgICAgICAgICAgICAgIDogIkFkZCBpbnRlcnZpZXcifQogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgIHtlZGl0aW5nSWQgJiYgKAogICAgICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgIHNpemU9InNtIgogICAgICAgICAgICAgICAgICB2YXJpYW50PSJvdXRsaW5lIgogICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB7CiAgICAgICAgICAgICAgICAgICAgc2V0RWRpdGluZ0lkKG51bGwpOwogICAgICAgICAgICAgICAgICAgIHNldEZvcm0oZW1wdHlJbnRlcnZpZXcpOwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICBDYW5jZWwKICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9mb3JtPgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJncmlkIGdhcC0zIj4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtc20gZm9udC1zZW1pYm9sZCI+CiAgICAgICAgICAgIDxIaXN0b3J5IGNsYXNzTmFtZT0iaC00IHctNCIgLz4gQWN0aXZpdHkKICAgICAgICAgIDwvaDM+CiAgICAgICAgICB7YWN0aXZpdHkubGVuZ3RoID09PSAwID8gKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5ObyBhY3Rpdml0eSB5ZXQuPC9wPgogICAgICAgICAgKSA6ICgKICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0iZ3JpZCBnYXAtMiBib3JkZXItbCBwbC00Ij4KICAgICAgICAgICAgICB7YWN0aXZpdHkubWFwKChldikgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17ZXYuaWR9IGNsYXNzTmFtZT0idGV4dC1zbSI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1tZWRpdW0iPntldi5ldmVudH08L3NwYW4+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIHtuZXcgRGF0ZShldi5jcmVhdGVkX2F0KS50b0xvY2FsZVN0cmluZygpfQogICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3VsPgogICAgICAgICAgKX0KICAgICAgICA8L3NlY3Rpb24+CiAgICAgIDwvRGlhbG9nQ29udGVudD4KICAgIDwvRGlhbG9nPgogICk7Cn0K
+import { useState } from "react";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { CalendarPlus, Pencil, Trash2, MapPin, History } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+import type { Tables } from "@/integrations/supabase/types";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { toast } from "sonner";
+
+type Application = Tables<"applications">;
+type Interview = Tables<"interviews">;
+
+const emptyInterview = { round: "", scheduled_at: "", location: "", notes: "" };
+
+function toLocalInput(iso: string) {
+  const d = new Date(iso);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+export function ApplicationDetail({
+  application,
+  open,
+  onOpenChange,
+}: {
+  application: Application | null;
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
+}) {
+  const queryClient = useQueryClient();
+  const [form, setForm] = useState(emptyInterview);
+  const [editingId, setEditingId] = useState<string | null>(null);
+  const appId = application?.id;
+
+  const { data: interviews = [] } = useQuery({
+    queryKey: ["interviews", appId],
+    enabled: !!appId && open,
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from("interviews")
+        .select("*")
+        .eq("application_id", appId!)
+        .order("scheduled_at", { ascending: true });
+      if (error) throw error;
+      return data;
+    },
+  });
+
+  const { data: activity = [] } = useQuery({
+    queryKey: ["activity", appId],
+    enabled: !!appId && open,
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from("application_activity")
+        .select("*")
+        .eq("application_id", appId!)
+        .order("created_at", { ascending: false });
+      if (error) throw error;
+      return data;
+    },
+  });
+
+  function invalidate() {
+    queryClient.invalidateQueries({ queryKey: ["interviews", appId] });
+    queryClient.invalidateQueries({ queryKey: ["activity", appId] });
+    queryClient.invalidateQueries({ queryKey: ["upcoming-interviews"] });
+  }
+
+  const saveInterview = useMutation({
+    mutationFn: async () => {
+      const { data: userData } = await supabase.auth.getUser();
+      const user = userData.user;
+      if (!user || !appId) throw new Error("Not signed in");
+      const payload = {
+        round: form.round.trim(),
+        scheduled_at: new Date(form.scheduled_at).toISOString(),
+        location: form.location.trim() || null,
+        notes: form.notes.trim() || null,
+      };
+      if (editingId) {
+        const { error } = await supabase
+          .from("interviews")
+          .update(payload)
+          .eq("id", editingId);
+        if (error) throw error;
+        await supabase.from("application_activity").insert({
+          application_id: appId,
+          user_id: user.id,
+          event: `Interview updated: ${payload.round}`,
+        });
+      } else {
+        const { error } = await supabase
+          .from("interviews")
+          .insert({ ...payload, application_id: appId, user_id: user.id });
+        if (error) throw error;
+        await supabase.from("application_activity").insert({
+          application_id: appId,
+          user_id: user.id,
+          event: `Interview scheduled: ${payload.round}`,
+        });
+      }
+    },
+    onSuccess: () => {
+      invalidate();
+      setForm(emptyInterview);
+      setEditingId(null);
+      toast.success(editingId ? "Interview updated" : "Interview scheduled");
+    },
+    onError: () => toast.error("Could not save the interview. Please try again."),
+  });
+
+  const deleteInterview = useMutation({
+    mutationFn: async (id: string) => {
+      const { error } = await supabase.from("interviews").delete().eq("id", id);
+      if (error) throw error;
+    },
+    onSuccess: () => {
+      invalidate();
+      toast.success("Interview removed");
+    },
+    onError: () => toast.error("Could not remove the interview."),
+  });
+
+  function startEdit(iv: Interview) {
+    setEditingId(iv.id);
+    setForm({
+      round: iv.round ?? "",
+      scheduled_at: toLocalInput(iv.scheduled_at),
+      location: iv.location ?? "",
+      notes: iv.notes ?? "",
+    });
+  }
+
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-2xl">
+        <DialogHeader>
+          <DialogTitle>
+            {application?.job_title} · {application?.company}
+          </DialogTitle>
+        </DialogHeader>
+
+        <section className="grid gap-3">
+          <h3 className="flex items-center gap-2 text-sm font-semibold">
+            <CalendarPlus className="h-4 w-4" /> Interviews
+          </h3>
+          {interviews.length === 0 ? (
+            <p className="text-sm text-muted-foreground">
+              No interviews scheduled yet.
+            </p>
+          ) : (
+            <ul className="grid gap-2">
+              {interviews.map((iv) => (
+                <li
+                  key={iv.id}
+                  className="flex items-start justify-between gap-3 rounded-lg border p-3"
+                >
+                  <div>
+                    <p className="text-sm font-medium">{iv.round}</p>
+                    <p className="text-sm text-muted-foreground">
+                      {new Date(iv.scheduled_at).toLocaleString()}
+                    </p>
+                    {iv.location && (
+                      <p className="flex items-center gap-1 text-sm text-muted-foreground">
+                        <MapPin className="h-3 w-3" /> {iv.location}
+                      </p>
+                    )}
+                    {iv.notes && (
+                      <p className="mt-1 text-sm text-muted-foreground">{iv.notes}</p>
+                    )}
+                  </div>
+                  <div className="flex shrink-0">
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => startEdit(iv)}
+                      aria-label="Edit interview"
+                    >
+                      <Pencil className="h-4 w-4" />
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="icon"
+                      onClick={() => deleteInterview.mutate(iv.id)}
+                      aria-label="Delete interview"
+                    >
+                      <Trash2 className="h-4 w-4 text-destructive" />
+                    </Button>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
+
+          <form
+            className="grid gap-3 rounded-lg border bg-muted/40 p-3"
+            onSubmit={(e) => {
+              e.preventDefault();
+              saveInterview.mutate();
+            }}
+          >
+            <p className="text-sm font-medium">
+              {editingId ? "Edit interview" : "Schedule an interview"}
+            </p>
+            <div className="grid grid-cols-2 gap-3">
+              <div className="grid gap-1.5">
+                <Label htmlFor="iv-round">Round *</Label>
+                <Input
+                  id="iv-round"
+                  required
+                  placeholder="e.g. Phone screen"
+                  value={form.round}
+                  onChange={(e) => setForm({ ...form, round: e.target.value })}
+                />
+              </div>
+              <div className="grid gap-1.5">
+                <Label htmlFor="iv-when">Date & time *</Label>
+                <Input
+                  id="iv-when"
+                  required
+                  type="datetime-local"
+                  value={form.scheduled_at}
+                  onChange={(e) => setForm({ ...form, scheduled_at: e.target.value })}
+                />
+              </div>
+            </div>
+            <div className="grid gap-1.5">
+              <Label htmlFor="iv-location">Location / link</Label>
+              <Input
+                id="iv-location"
+                placeholder="Office address or video link"
+                value={form.location}
+                onChange={(e) => setForm({ ...form, location: e.target.value })}
+              />
+            </div>
+            <div className="grid gap-1.5">
+              <Label htmlFor="iv-notes">Notes</Label>
+              <Textarea
+                id="iv-notes"
+                rows={2}
+                value={form.notes}
+                onChange={(e) => setForm({ ...form, notes: e.target.value })}
+              />
+            </div>
+            <div className="flex gap-2">
+              <Button type="submit" size="sm" disabled={saveInterview.isPending}>
+                {saveInterview.isPending
+                  ? "Saving…"
+                  : editingId
+                    ? "Save changes"
+                    : "Add interview"}
+              </Button>
+              {editingId && (
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  onClick={() => {
+                    setEditingId(null);
+                    setForm(emptyInterview);
+                  }}
+                >
+                  Cancel
+                </Button>
+              )}
+            </div>
+          </form>
+        </section>
+
+        <section className="grid gap-3">
+          <h3 className="flex items-center gap-2 text-sm font-semibold">
+            <History className="h-4 w-4" /> Activity
+          </h3>
+          {activity.length === 0 ? (
+            <p className="text-sm text-muted-foreground">No activity yet.</p>
+          ) : (
+            <ul className="grid gap-2 border-l pl-4">
+              {activity.map((ev) => (
+                <li key={ev.id} className="text-sm">
+                  <span className="font-medium">{ev.event}</span>
+                  <span className="ml-2 text-muted-foreground">
+                    {new Date(ev.created_at).toLocaleString()}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      </DialogContent>
+    </Dialog>
+  );
+}

@@ -1,1 +1,68 @@
-Y3JlYXRlIHRhYmxlIHB1YmxpYy5wcm9maWxlcyAoCiAgaWQgdXVpZCBwcmltYXJ5IGtleSByZWZlcmVuY2VzIGF1dGgudXNlcnMoaWQpIG9uIGRlbGV0ZSBjYXNjYWRlLAogIGRpc3BsYXlfbmFtZSB0ZXh0LAogIGF2YXRhcl91cmwgdGV4dCwKICBjcmVhdGVkX2F0IHRpbWVzdGFtcHR6IG5vdCBudWxsIGRlZmF1bHQgbm93KCkKKTsKZ3JhbnQgc2VsZWN0LCBpbnNlcnQsIHVwZGF0ZSBvbiBwdWJsaWMucHJvZmlsZXMgdG8gYXV0aGVudGljYXRlZDsKZ3JhbnQgYWxsIG9uIHB1YmxpYy5wcm9maWxlcyB0byBzZXJ2aWNlX3JvbGU7CmFsdGVyIHRhYmxlIHB1YmxpYy5wcm9maWxlcyBlbmFibGUgcm93IGxldmVsIHNlY3VyaXR5OwpjcmVhdGUgcG9saWN5ICJVc2VycyByZWFkIG93biBwcm9maWxlIiBvbiBwdWJsaWMucHJvZmlsZXMgZm9yIHNlbGVjdCB0byBhdXRoZW50aWNhdGVkIHVzaW5nIChhdXRoLnVpZCgpID0gaWQpOwpjcmVhdGUgcG9saWN5ICJVc2VycyBpbnNlcnQgb3duIHByb2ZpbGUiIG9uIHB1YmxpYy5wcm9maWxlcyBmb3IgaW5zZXJ0IHRvIGF1dGhlbnRpY2F0ZWQgd2l0aCBjaGVjayAoYXV0aC51aWQoKSA9IGlkKTsKY3JlYXRlIHBvbGljeSAiVXNlcnMgdXBkYXRlIG93biBwcm9maWxlIiBvbiBwdWJsaWMucHJvZmlsZXMgZm9yIHVwZGF0ZSB0byBhdXRoZW50aWNhdGVkIHVzaW5nIChhdXRoLnVpZCgpID0gaWQpOwoKY3JlYXRlIG9yIHJlcGxhY2UgZnVuY3Rpb24gcHVibGljLmhhbmRsZV9uZXdfdXNlcigpCnJldHVybnMgdHJpZ2dlciBsYW5ndWFnZSBwbHBnc3FsIHNlY3VyaXR5IGRlZmluZXIgc2V0IHNlYXJjaF9wYXRoID0gcHVibGljIGFzICQkCmJlZ2luCiAgaW5zZXJ0IGludG8gcHVibGljLnByb2ZpbGVzIChpZCwgZGlzcGxheV9uYW1lLCBhdmF0YXJfdXJsKQogIHZhbHVlcyAobmV3LmlkLCBjb2FsZXNjZShuZXcucmF3X3VzZXJfbWV0YV9kYXRhLT4+J2Z1bGxfbmFtZScsIG5ldy5yYXdfdXNlcl9tZXRhX2RhdGEtPj4nbmFtZScpLCBuZXcucmF3X3VzZXJfbWV0YV9kYXRhLT4+J2F2YXRhcl91cmwnKTsKICByZXR1cm4gbmV3OwplbmQgJCQ7CmNyZWF0ZSB0cmlnZ2VyIG9uX2F1dGhfdXNlcl9jcmVhdGVkIGFmdGVyIGluc2VydCBvbiBhdXRoLnVzZXJzIGZvciBlYWNoIHJvdyBleGVjdXRlIGZ1bmN0aW9uIHB1YmxpYy5oYW5kbGVfbmV3X3VzZXIoKTsKCmNyZWF0ZSB0YWJsZSBwdWJsaWMuYXBwbGljYXRpb25zICgKICBpZCB1dWlkIHByaW1hcnkga2V5IGRlZmF1bHQgZ2VuX3JhbmRvbV91dWlkKCksCiAgdXNlcl9pZCB1dWlkIG5vdCBudWxsLAogIGpvYl90aXRsZSB0ZXh0IG5vdCBudWxsLAogIGNvbXBhbnkgdGV4dCBub3QgbnVsbCwKICBqb2JfdXJsIHRleHQsCiAgbG9jYXRpb24gdGV4dCwKICBzYWxhcnkgdGV4dCwKICBzdGF0dXMgdGV4dCBub3QgbnVsbCBkZWZhdWx0ICdzYXZlZCcsCiAgbm90ZXMgdGV4dCwKICBhcHBsaWVkX2F0IHRpbWVzdGFtcHR6LAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKSwKICB1cGRhdGVkX2F0IHRpbWVzdGFtcHR6IG5vdCBudWxsIGRlZmF1bHQgbm93KCkKKTsKZ3JhbnQgc2VsZWN0LCBpbnNlcnQsIHVwZGF0ZSwgZGVsZXRlIG9uIHB1YmxpYy5hcHBsaWNhdGlvbnMgdG8gYXV0aGVudGljYXRlZDsKZ3JhbnQgYWxsIG9uIHB1YmxpYy5hcHBsaWNhdGlvbnMgdG8gc2VydmljZV9yb2xlOwphbHRlciB0YWJsZSBwdWJsaWMuYXBwbGljYXRpb25zIGVuYWJsZSByb3cgbGV2ZWwgc2VjdXJpdHk7CmNyZWF0ZSBwb2xpY3kgIlVzZXJzIG1hbmFnZSBvd24gYXBwbGljYXRpb25zIiBvbiBwdWJsaWMuYXBwbGljYXRpb25zIGZvciBhbGwgdG8gYXV0aGVudGljYXRlZCB1c2luZyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpIHdpdGggY2hlY2sgKGF1dGgudWlkKCkgPSB1c2VyX2lkKTsKCmNyZWF0ZSB0YWJsZSBwdWJsaWMuaW50ZXJ2aWV3cyAoCiAgaWQgdXVpZCBwcmltYXJ5IGtleSBkZWZhdWx0IGdlbl9yYW5kb21fdXVpZCgpLAogIGFwcGxpY2F0aW9uX2lkIHV1aWQgbm90IG51bGwgcmVmZXJlbmNlcyBwdWJsaWMuYXBwbGljYXRpb25zKGlkKSBvbiBkZWxldGUgY2FzY2FkZSwKICB1c2VyX2lkIHV1aWQgbm90IG51bGwsCiAgcm91bmQgdGV4dCwKICBzY2hlZHVsZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwsCiAgbG9jYXRpb24gdGV4dCwKICBub3RlcyB0ZXh0LAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKQopOwpncmFudCBzZWxlY3QsIGluc2VydCwgdXBkYXRlLCBkZWxldGUgb24gcHVibGljLmludGVydmlld3MgdG8gYXV0aGVudGljYXRlZDsKZ3JhbnQgYWxsIG9uIHB1YmxpYy5pbnRlcnZpZXdzIHRvIHNlcnZpY2Vfcm9sZTsKYWx0ZXIgdGFibGUgcHVibGljLmludGVydmlld3MgZW5hYmxlIHJvdyBsZXZlbCBzZWN1cml0eTsKY3JlYXRlIHBvbGljeSAiVXNlcnMgbWFuYWdlIG93biBpbnRlcnZpZXdzIiBvbiBwdWJsaWMuaW50ZXJ2aWV3cyBmb3IgYWxsIHRvIGF1dGhlbnRpY2F0ZWQgdXNpbmcgKGF1dGgudWlkKCkgPSB1c2VyX2lkKSB3aXRoIGNoZWNrIChhdXRoLnVpZCgpID0gdXNlcl9pZCk7CgpjcmVhdGUgdGFibGUgcHVibGljLmFwcGxpY2F0aW9uX2FjdGl2aXR5ICgKICBpZCB1dWlkIHByaW1hcnkga2V5IGRlZmF1bHQgZ2VuX3JhbmRvbV91dWlkKCksCiAgYXBwbGljYXRpb25faWQgdXVpZCBub3QgbnVsbCByZWZlcmVuY2VzIHB1YmxpYy5hcHBsaWNhdGlvbnMoaWQpIG9uIGRlbGV0ZSBjYXNjYWRlLAogIHVzZXJfaWQgdXVpZCBub3QgbnVsbCwKICBldmVudCB0ZXh0IG5vdCBudWxsLAogIGNyZWF0ZWRfYXQgdGltZXN0YW1wdHogbm90IG51bGwgZGVmYXVsdCBub3coKQopOwpncmFudCBzZWxlY3QsIGluc2VydCBvbiBwdWJsaWMuYXBwbGljYXRpb25fYWN0aXZpdHkgdG8gYXV0aGVudGljYXRlZDsKZ3JhbnQgYWxsIG9uIHB1YmxpYy5hcHBsaWNhdGlvbl9hY3Rpdml0eSB0byBzZXJ2aWNlX3JvbGU7CmFsdGVyIHRhYmxlIHB1YmxpYy5hcHBsaWNhdGlvbl9hY3Rpdml0eSBlbmFibGUgcm93IGxldmVsIHNlY3VyaXR5OwpjcmVhdGUgcG9saWN5ICJVc2VycyByZWFkIG93biBhY3Rpdml0eSIgb24gcHVibGljLmFwcGxpY2F0aW9uX2FjdGl2aXR5IGZvciBzZWxlY3QgdG8gYXV0aGVudGljYXRlZCB1c2luZyAoYXV0aC51aWQoKSA9IHVzZXJfaWQpOwpjcmVhdGUgcG9saWN5ICJVc2VycyBpbnNlcnQgb3duIGFjdGl2aXR5IiBvbiBwdWJsaWMuYXBwbGljYXRpb25fYWN0aXZpdHkgZm9yIGluc2VydCB0byBhdXRoZW50aWNhdGVkIHdpdGggY2hlY2sgKGF1dGgudWlkKCkgPSB1c2VyX2lkKTs=
+create table public.profiles (
+  id uuid primary key references auth.users(id) on delete cascade,
+  display_name text,
+  avatar_url text,
+  created_at timestamptz not null default now()
+);
+grant select, insert, update on public.profiles to authenticated;
+grant all on public.profiles to service_role;
+alter table public.profiles enable row level security;
+create policy "Users read own profile" on public.profiles for select to authenticated using (auth.uid() = id);
+create policy "Users insert own profile" on public.profiles for insert to authenticated with check (auth.uid() = id);
+create policy "Users update own profile" on public.profiles for update to authenticated using (auth.uid() = id);
+
+create or replace function public.handle_new_user()
+returns trigger language plpgsql security definer set search_path = public as $$
+begin
+  insert into public.profiles (id, display_name, avatar_url)
+  values (new.id, coalesce(new.raw_user_meta_data->>'full_name', new.raw_user_meta_data->>'name'), new.raw_user_meta_data->>'avatar_url');
+  return new;
+end $$;
+create trigger on_auth_user_created after insert on auth.users for each row execute function public.handle_new_user();
+
+create table public.applications (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null,
+  job_title text not null,
+  company text not null,
+  job_url text,
+  location text,
+  salary text,
+  status text not null default 'saved',
+  notes text,
+  applied_at timestamptz,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+grant select, insert, update, delete on public.applications to authenticated;
+grant all on public.applications to service_role;
+alter table public.applications enable row level security;
+create policy "Users manage own applications" on public.applications for all to authenticated using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+create table public.interviews (
+  id uuid primary key default gen_random_uuid(),
+  application_id uuid not null references public.applications(id) on delete cascade,
+  user_id uuid not null,
+  round text,
+  scheduled_at timestamptz not null,
+  location text,
+  notes text,
+  created_at timestamptz not null default now()
+);
+grant select, insert, update, delete on public.interviews to authenticated;
+grant all on public.interviews to service_role;
+alter table public.interviews enable row level security;
+create policy "Users manage own interviews" on public.interviews for all to authenticated using (auth.uid() = user_id) with check (auth.uid() = user_id);
+
+create table public.application_activity (
+  id uuid primary key default gen_random_uuid(),
+  application_id uuid not null references public.applications(id) on delete cascade,
+  user_id uuid not null,
+  event text not null,
+  created_at timestamptz not null default now()
+);
+grant select, insert on public.application_activity to authenticated;
+grant all on public.application_activity to service_role;
+alter table public.application_activity enable row level security;
+create policy "Users read own activity" on public.application_activity for select to authenticated using (auth.uid() = user_id);
+create policy "Users insert own activity" on public.application_activity for insert to authenticated with check (auth.uid() = user_id);

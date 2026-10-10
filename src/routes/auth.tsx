@@ -1,1 +1,75 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBCcmllZmNhc2UgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBsb3ZhYmxlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvbG92YWJsZS9pbmRleCI7CmltcG9ydCB7IHN1cGFiYXNlIH0gZnJvbSAiQC9pbnRlZ3JhdGlvbnMvc3VwYWJhc2UvY2xpZW50IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkRGVzY3JpcHRpb24sIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2F1dGgiKSh7CiAgaGVhZDogKCkgPT4gKHsKICAgIG1ldGE6IFsKICAgICAgeyB0aXRsZTogIlNpZ24gaW4g4oCUIEpvYk5ldFdvcmsgVHJhY2tlciIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAiU2lnbiBpbiB3aXRoIEdvb2dsZSB0byBtYW5hZ2UgeW91ciBqb2IgYXBwbGljYXRpb25zLiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIlNpZ24gaW4g4oCUIEpvYk5ldFdvcmsgVHJhY2tlciIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogIlNpZ24gaW4gd2l0aCBHb29nbGUgdG8gbWFuYWdlIHlvdXIgam9iIGFwcGxpY2F0aW9ucy4iIH0sCiAgICBdLAogIH0pLAogIGNvbXBvbmVudDogQXV0aFBhZ2UsCn0pOwoKZnVuY3Rpb24gQXV0aFBhZ2UoKSB7CiAgY29uc3QgbmF2aWdhdGUgPSB1c2VOYXZpZ2F0ZSgpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgc3VwYWJhc2UuYXV0aC5nZXRVc2VyKCkudGhlbigoeyBkYXRhIH0pID0+IHsKICAgICAgaWYgKGRhdGEudXNlcikgbmF2aWdhdGUoeyB0bzogIi9kYXNoYm9hcmQiLCByZXBsYWNlOiB0cnVlIH0pOwogICAgfSk7CiAgfSwgW25hdmlnYXRlXSk7CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUdvb2dsZVNpZ25JbigpIHsKICAgIHNldExvYWRpbmcodHJ1ZSk7CiAgICBzZXRFcnJvcihudWxsKTsKICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGxvdmFibGUuYXV0aC5zaWduSW5XaXRoT0F1dGgoImdvb2dsZSIsIHsKICAgICAgcmVkaXJlY3RfdXJpOiB3aW5kb3cubG9jYXRpb24ub3JpZ2luLAogICAgfSk7CiAgICBpZiAocmVzdWx0LmVycm9yKSB7CiAgICAgIHNldEVycm9yKCJTaWduLWluIGZhaWxlZC4gUGxlYXNlIHRyeSBhZ2Fpbi4iKTsKICAgICAgc2V0TG9hZGluZyhmYWxzZSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGlmIChyZXN1bHQucmVkaXJlY3RlZCkgcmV0dXJuOyAvLyBicm93c2VyIGlzIG5hdmlnYXRpbmcgdG8gR29vZ2xlCiAgICBuYXZpZ2F0ZSh7IHRvOiAiL2Rhc2hib2FyZCIgfSk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggbWluLWgtc2NyZWVuIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBiZy1iYWNrZ3JvdW5kIHB4LTQiPgogICAgICA8Q2FyZCBjbGFzc05hbWU9InctZnVsbCBtYXgtdy1zbSI+CiAgICAgICAgPENhcmRIZWFkZXIgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBtYi0yIGZsZXggaC0xMiB3LTEyIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLXhsIGJnLXByaW1hcnkiPgogICAgICAgICAgICA8QnJpZWZjYXNlIGNsYXNzTmFtZT0iaC02IHctNiB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPENhcmRUaXRsZSBjbGFzc05hbWU9InRleHQteGwiPkpvYk5ldFdvcmsgVHJhY2tlcjwvQ2FyZFRpdGxlPgogICAgICAgICAgPENhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAgU2lnbiBpbiB0byB0cmFjayB5b3VyIGpvYiBhcHBsaWNhdGlvbnMsIGludGVydmlld3MsIGFuZCBmb2xsb3ctdXBzLgogICAgICAgICAgPC9DYXJkRGVzY3JpcHRpb24+CiAgICAgICAgPC9DYXJkSGVhZGVyPgogICAgICAgIDxDYXJkQ29udGVudD4KICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwiCiAgICAgICAgICAgIHNpemU9ImxnIgogICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVHb29nbGVTaWduSW59CiAgICAgICAgICAgIGRpc2FibGVkPXtsb2FkaW5nfQogICAgICAgICAgPgogICAgICAgICAgICB7bG9hZGluZyA/ICJSZWRpcmVjdGluZ+KApiIgOiAiQ29udGludWUgd2l0aCBHb29nbGUifQogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICB7ZXJyb3IgJiYgKAogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC1jZW50ZXIgdGV4dC1zbSB0ZXh0LWRlc3RydWN0aXZlIj57ZXJyb3J9PC9wPgogICAgICAgICAgKX0KICAgICAgICA8L0NhcmRDb250ZW50PgogICAgICA8L0NhcmQ+CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { Briefcase } from "lucide-react";
+import { lovable } from "@/integrations/lovable/index";
+import { supabase } from "@/integrations/supabase/client";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+
+export const Route = createFileRoute("/auth")({
+  head: () => ({
+    meta: [
+      { title: "Sign in — JobNetWork Tracker" },
+      { name: "description", content: "Sign in with Google to manage your job applications." },
+      { property: "og:title", content: "Sign in — JobNetWork Tracker" },
+      { property: "og:description", content: "Sign in with Google to manage your job applications." },
+    ],
+  }),
+  component: AuthPage,
+});
+
+function AuthPage() {
+  const navigate = useNavigate();
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      if (data.user) navigate({ to: "/dashboard", replace: true });
+    });
+  }, [navigate]);
+
+  async function handleGoogleSignIn() {
+    setLoading(true);
+    setError(null);
+    const result = await lovable.auth.signInWithOAuth("google", {
+      redirect_uri: window.location.origin,
+    });
+    if (result.error) {
+      setError("Sign-in failed. Please try again.");
+      setLoading(false);
+      return;
+    }
+    if (result.redirected) return; // browser is navigating to Google
+    navigate({ to: "/dashboard" });
+  }
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-4">
+      <Card className="w-full max-w-sm">
+        <CardHeader className="text-center">
+          <div className="mx-auto mb-2 flex h-12 w-12 items-center justify-center rounded-xl bg-primary">
+            <Briefcase className="h-6 w-6 text-primary-foreground" />
+          </div>
+          <CardTitle className="text-xl">JobNetWork Tracker</CardTitle>
+          <CardDescription>
+            Sign in to track your job applications, interviews, and follow-ups.
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Button
+            className="w-full"
+            size="lg"
+            onClick={handleGoogleSignIn}
+            disabled={loading}
+          >
+            {loading ? "Redirecting…" : "Continue with Google"}
+          </Button>
+          {error && (
+            <p className="mt-3 text-center text-sm text-destructive">{error}</p>
+          )}
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
