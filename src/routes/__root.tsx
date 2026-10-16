@@ -11,6 +11,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 import { Toaster } from "@/components/ui/sonner";
 import { supabase } from "@/integrations/supabase/client";
+import { isOAuthReturn } from "@/lib/auth";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -122,9 +123,14 @@ function RootComponent() {
   const router = useRouter();
 
   useEffect(() => {
+    const cameFromOAuth = isOAuthReturn();
     const {
       data: { subscription },
-    } = supabase.auth.onAuthStateChange((event) => {
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      // Lovable's broker returns to the site root; send a fresh OAuth login on to the dashboard.
+      if (event === "SIGNED_IN" && session && cameFromOAuth && window.location.pathname === "/") {
+        router.navigate({ to: "/dashboard", replace: true });
+      }
       if (event !== "SIGNED_IN" && event !== "SIGNED_OUT" && event !== "USER_UPDATED") return;
       router.invalidate();
       if (event !== "SIGNED_OUT") queryClient.invalidateQueries();

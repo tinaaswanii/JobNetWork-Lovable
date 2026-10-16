@@ -29,6 +29,9 @@ export interface JobsPageResult {
   limit: number;
   offset: number;
   has_more: boolean;
+  // Set only when the live feed failed and results came from the cached_jobs table.
+  source?: "cache";
+  notice?: string;
 }
 
 export interface JobsQuery {

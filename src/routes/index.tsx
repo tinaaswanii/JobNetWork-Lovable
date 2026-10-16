@@ -46,6 +46,9 @@ function Index() {
             <span className="font-semibold">JobNetWork Tracker</span>
           </div>
           <div className="flex items-center gap-2">
+            <Button variant="ghost" asChild>
+              <Link to="/about">About</Link>
+            </Button>
             <Button variant="outline" asChild>
               <Link to="/jobs">Browse jobs</Link>
             </Button>

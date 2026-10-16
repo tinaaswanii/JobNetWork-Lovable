@@ -190,6 +190,70 @@ function rowToPublicJob(row: {
   };
 }
 
+// Listings not seen in the live feed for this long may have been filled or
+// removed, so they are never shown as open roles.
+const CACHE_MAX_AGE_DAYS = 14;
+
+// Fallback used only when the live feed fails. Applies the filters the cached
+// columns can honestly support; anything else is reported in `notice`.
+async function getCachedJobsPage(query: JobsQuery): Promise<JobsPageResult> {
+  const { supabaseAdmin } = await import("@/integrations/supabase/client.server");
+  const limit = query.limit ?? 12;
+  const offset = query.offset ?? 0;
+  const cutoff = new Date(Date.now() - CACHE_MAX_AGE_DAYS * 86_400_000).toISOString();
+  const esc = (s: string) => s.replace(/[%_,()\\]/g, " ").trim();
+  const notApplied: string[] = [];
+
+  let q = supabaseAdmin
+    .from("cached_jobs")
+    .select("*", { count: "exact" })
+    .gte("last_seen_at", cutoff);
+
+  const terms = (query.q ?? "").trim().split(/\s+/).map(esc).filter(Boolean);
+  for (const term of terms) {
+    q = q.or(`title.ilike.%${term}%,company.ilike.%${term}%`);
+  }
+  if (query.job_type) q = q.ilike("job_type", `%${esc(query.job_type)}%`);
+  if (query.company) q = q.ilike("company", `%${esc(query.company)}%`);
+  if (query.location) q = q.ilike("location", `%${esc(query.location)}%`);
+  if (query.state) q = q.ilike("state", `%${esc(query.state)}%`);
+  if (query.city) q = q.ilike("city", `%${esc(query.city)}%`);
+  if (query.salary_min != null) q = q.gte("salary_max", query.salary_min);
+
+  if (query.exp_level) {
+    const lvl = query.exp_level.toLowerCase();
+    if (/intern|fresher|entry/.test(lvl)) q = q.or("exp_min.is.null,exp_min.lte.1");
+    else if (/senior|lead/.test(lvl)) q = q.gte("exp_min", 5);
+    else if (/mid/.test(lvl)) q = q.gte("exp_min", 2).lte("exp_min", 5);
+    else notApplied.push("experience level");
+  }
+  if (query.work_mode) {
+    const mode = query.work_mode.toLowerCase();
+    if (mode.includes("remote")) q = q.or("location.ilike.%remote%,title.ilike.%remote%");
+    else notApplied.push("work mode"); // not stored in cached_jobs
+  }
+  if (query.sort_by === "high_cpa") notApplied.push("sort order");
+
+  const { data, count, error } = await q
+    .order("posted_date", { ascending: false, nullsFirst: false })
+    .range(offset, offset + limit - 1);
+  if (error) throw error;
+
+  const items = (data ?? []).map(rowToPublicJob);
+  const total = count ?? items.length;
+  return {
+    items,
+    total,
+    limit,
+    offset,
+    has_more: offset + items.length < total,
+    source: "cache",
+    notice:
+      "Showing recently saved listings while the live job feed is unavailable." +
+      (notApplied.length ? ` The ${notApplied.join(" and ")} filter isn't applied to saved listings.` : ""),
+  };
+}
+
 export const getJobs = createServerFn({ method: "GET" })
   .inputValidator((query: JobsQuery) => query ?? {})
   .handler(async ({ data: query }): Promise<JobsPageResult> => {
@@ -201,10 +265,23 @@ export const getJobs = createServerFn({ method: "GET" })
       ? { ...query, limit: Math.max(query.limit ?? 10, 100) }
       : query;
 
-    const result = await arthaFetch<JobsPageResult>(
-      "/jobs",
-      toParams(arthaQuery),
-    );
+    let result: JobsPageResult;
+    try {
+      result = await arthaFetch<JobsPageResult>("/jobs", toParams(arthaQuery));
+    } catch (err) {
+      // Live feed failed (expired/missing ARTHA_API_KEY, outage, rate limit):
+      // log the real cause server-side only, then serve recently-seen cached
+      // listings rather than an error page.
+      console.error("[jobs] live feed failed, trying cache", err);
+      const cached = await getCachedJobsPage(query).catch((cacheErr) => {
+        console.error("[jobs] cache fallback failed", cacheErr);
+        return null;
+      });
+      if (cached) return cached; // may be empty: no matching recent listings
+      throw new Error(
+        "Job listings are temporarily unavailable. Please try again in a few minutes.",
+      );
+    }
 
     // Cache the raw feed page (before search filtering) so detail pages can
     // be served later from cached_jobs.

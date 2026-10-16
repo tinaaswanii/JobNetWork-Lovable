@@ -1,4 +1,4 @@
-import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
 import type { JobsPageResult, JobsQuery } from "@/lib/jobs/types";
 import { getJobs } from "@/lib/jobs/jobs.functions";
@@ -83,7 +83,11 @@ function JobsPage() {
         </div>
       </header>
 
-      <JobsBoard initialJobs={initial.items} initialTotal={initial.total} />
+      <JobsBoard
+        initialJobs={initial.items}
+        initialTotal={initial.total}
+        initialNotice={initial.notice ?? ""}
+      />
     </main>
   );
 }
@@ -91,9 +95,11 @@ function JobsPage() {
 function JobsBoard({
   initialJobs,
   initialTotal,
+  initialNotice,
 }: {
   initialJobs: JobsPageResult["items"];
   initialTotal: number;
+  initialNotice: string;
 }) {
   const navigate = useNavigate();
   const search = Route.useSearch();
@@ -113,6 +119,7 @@ function JobsBoard({
     "loading" | "ready" | "error"
   >(initialJobs.length > 0 ? "ready" : "loading");
   const [errorMessage, setErrorMessage] = useState("");
+  const [notice, setNotice] = useState(initialNotice);
 
   const syncUrl = useCallback(
     (nextFilters: Filters, nextOffset: number) => {
@@ -167,6 +174,7 @@ function JobsBoard({
         if (cancelled) return;
         setJobs(result.items);
         setTotal(result.total);
+        setNotice(result.notice ?? "");
         setFetchState("ready");
       } catch (err) {
         if (cancelled) return;
@@ -226,6 +234,15 @@ function JobsBoard({
           </div>
         )}
 
+        {fetchState === "ready" && notice && (
+          <p
+            role="status"
+            className="mb-4 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-900"
+          >
+            {notice}
+          </p>
+        )}
+
         {fetchState === "ready" && !isEmpty && (
           <>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -244,7 +261,11 @@ function JobsBoard({
         )}
 
         <div className="mt-12 border-t pt-8">
-          <h2 className="text-2xl font-semibold">About JobNetWork</h2>
+          <h2 className="text-2xl font-semibold">
+            <Link to="/about" className="hover:underline">
+              About JobNetWork
+            </Link>
+          </h2>
           <p className="mt-3 max-w-3xl leading-7 text-muted-foreground">
             JobNetWork brings jobs, internships and career opportunities
             together in one place for students, freshers, working professionals

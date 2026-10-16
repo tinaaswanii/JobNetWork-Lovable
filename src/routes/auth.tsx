@@ -1,7 +1,7 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Briefcase } from "lucide-react";
-import { lovable } from "@/integrations/lovable/index";
+import { signInWithGoogle } from "@/lib/auth";
 import { supabase } from "@/integrations/supabase/client";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -27,20 +27,25 @@ function AuthPage() {
     supabase.auth.getUser().then(({ data }) => {
       if (data.user) navigate({ to: "/dashboard", replace: true });
     });
+    // Covers the OAuth return leg: the session is set from the URL after mount.
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((event, session) => {
+      if (event === "SIGNED_IN" && session) navigate({ to: "/dashboard", replace: true });
+    });
+    return () => subscription.unsubscribe();
   }, [navigate]);
 
   async function handleGoogleSignIn() {
     setLoading(true);
     setError(null);
-    const result = await lovable.auth.signInWithOAuth("google", {
-      redirect_uri: window.location.origin,
-    });
-    if (result.error) {
-      setError("Sign-in failed. Please try again.");
+    const result = await signInWithGoogle();
+    if (result.status === "error") {
+      setError(result.message);
       setLoading(false);
       return;
     }
-    if (result.redirected) return; // browser is navigating to Google
+    if (result.status === "redirecting") return; // browser is navigating to Google
     navigate({ to: "/dashboard" });
   }
 
